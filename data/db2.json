@@ -1,0 +1,564 @@
+{
+    "InQueue": [
+      {
+        "taskName": "Assosite",
+        "taskDesc": "The entire firm so everyone can see case",
+        "platforms": ["IOS", "WEBSITE"],
+        "progress": 0,
+        "commentC": 20,
+        "messageC": 44
+      },
+      {
+        "taskName": "Assosite2",
+        "taskDesc": "The entire firm so everyone can see case2",
+        "platforms": ["IOS", "ANDROID"],
+        "progress": 0,
+        "commentC": 67,
+        "messageC": 14
+      },
+      {
+        "taskName": "Assosite3",
+        "taskDesc": "The entire firm so everyone can see case3",
+        "platforms": ["ANDROID", "WEBSITE"],
+        "progress": 0,
+        "commentC": 31,
+        "messageC": 23
+      }
+    ],
+    "InProgress": [
+      {
+        "taskName": "InProgress",
+        "taskDesc": "InProgress firm so everyone can see case",
+        "platform": ["IOS", "WEBSITE"],
+        "progress": 78,
+        "commentC": 20,
+        "messageC": 44
+      },
+      {
+        "taskName": "InProgress2",
+        "taskDesc": "InProgresse firm so everyone can see case2",
+        "platform": ["IOS", "ANDROID"],
+        "progress": 90,
+        "commentC": 67,
+        "messageC": 14
+      },
+      {
+        "taskName": "InProgress3",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 50,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "InProgress4",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 55,
+        "commentC": 32,
+        "messageC": 28
+      }
+    ],
+    "NeedRevision": [
+      {
+        "taskName": "NeedRevision",
+        "taskDesc": "InProgress firm so everyone can see case",
+        "platform": ["IOS", "WEBSITE"],
+        "progress": 78,
+        "commentC": 20,
+        "messageC": 44
+      },
+      {
+        "taskName": "NeedRevision",
+        "taskDesc": "InProgresse firm so everyone can see case2",
+        "platform": ["IOS", "ANDROID"],
+        "progress": 90,
+        "commentC": 67,
+        "messageC": 14
+      },
+      {
+        "taskName": "NeedRevision",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 50,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "NeedRevision",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 69,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "NeedRevision",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 76,
+        "commentC": 31,
+        "messageC": 23
+      }
+    ],
+    "Complete": [
+      {
+        "taskName": "Complete",
+        "taskDesc": "InProgress firm so everyone can see case",
+        "platform": ["IOS", "WEBSITE"],
+        "progress": 100,
+        "commentC": 20,
+        "messageC": 44
+      },
+      {
+        "taskName": "Complete2",
+        "taskDesc": "InProgresse firm so everyone can see case2",
+        "platform": ["IOS", "ANDROID"],
+        "progress": 100,
+        "commentC": 67,
+        "messageC": 14
+      },
+      {
+        "taskName": "Complete3",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 100,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "Complete4",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 100,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "Complete5",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 100,
+        "commentC": 31,
+        "messageC": 23
+      },
+      {
+        "taskName": "Complete6",
+        "taskDesc": "InProgress firm so everyone can see case3",
+        "platform": ["ANDROID", "WEBSITE"],
+        "progress": 100,
+        "commentC": 31,
+        "messageC": 23
+      }
+    ],
+    "Contacts": {
+      "active": [
+        {
+          "name": "Kathryn Murphy",
+          "phone": "(201) 555-0124",
+          "cases": "Example",
+          "group": "Client",
+          "lastlogin": "Disable",
+          "added": "08-12-2023",
+          "assignedTo": "Jorge"
+        },
+        {
+          "name": "Complete6",
+          "phone": "(201) 555-0125",
+          "cases": "Example",
+          "group": "Client",
+          "lastlogin": "Disable",
+          "added": "08-12-2023",
+          "assignedTo": "Ronald"
+        }
+      ],
+      "archived": [
+        {
+          "name": "Kathryn Murphy Arc",
+          "phone": "(201) 555-0124",
+          "cases": "Example",
+          "group": "Client",
+          "lastlogin": "Disable",
+          "added": "08-12-2023",
+          "assignedTo": "Jorge"
+        },
+        {
+          "name": "Complete6 Arc",
+          "phone": "(201) 555-0125",
+          "cases": "Example",
+          "group": "Client",
+          "lastlogin": "Disable",
+          "added": "08-12-2023",
+          "assignedTo": "Ronald"
+        }
+      ]
+    },
+    "Roles": [
+      {
+        "id":"1",
+        "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+        "role": "Accountant",
+        "phone": "(201) 555-0124",
+        "status": "Inactive",
+        "gmail": "azmirazmir13579@gmail.com"
+      },
+      {
+        "id":"2",
+        "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+        "role": "Adverse party",
+        "phone": "(201) 555-0124",
+        "status": "Bouncing",
+        "gmail": "maikelnai@icloud.com"
+      },
+      {
+        "id":"3",
+        "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+        "role": "Accountant",
+        "phone": "(201) 555-0124",
+        "status": "Recent",
+        "gmail": "crobles@icloud.com"
+      },
+      {
+        "id":"4",
+        "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+        "role": "Accountant",
+        "phone": "(201) 555-0124",
+        "status": "Active",
+        "gmail": "rbarreira@optonline.net"
+      }
+    ],
+    "Compny": {
+      "active": [
+        {
+          "name": "Abstergo Ltd.",
+          "phone": "(201) 555-0124",
+          "cases": "Example",
+          "added": "08-12-2023",
+          "assignedTo": "Wade"
+        },
+        {
+          "name": "Abstergo Ltd.2",
+          "phone": "(201) 555-01242",
+          "cases": "Example2",
+          "added": "08-12-20232",
+          "assignedTo": "Wade2"
+        }
+      ],
+      "archived": [
+        {
+          "name": "Abstergo Ltd.arch",
+          "phone": "(201) 555-0124 arch ",
+          "cases": "Example arch",
+          "added": "08-12-2023 arch",
+          "assignedTo": "Wade arch"
+        },
+        {
+          "name": "Abstergo Ltd.2 arch",
+          "phone": "(201) 555-01242 arch",
+          "cases": "Example2 arch",
+          "added": "08-12-20232 arch",
+          "assignedTo": "Wade2 arch"
+        }
+      ]
+    },
+    "Cases": {
+      "open": [
+        {
+          "id":"1",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "Jacob Jones",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "Savannah",
+          "nextEvent": "2020-0112",
+          "nextTask": {
+            "stg": "DUE",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        },
+        {
+          "id":"2",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "Jacob Jones",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "Savannah",
+          "nextEvent": "2020-0112",
+          "nextTask": {
+            "stg": "SUCCESS",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        },
+        {
+          "id":"3",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "Jacob Jones",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "Savannah",
+          "nextEvent": "2020-0112",
+          "nextTask": {
+            "stg": "PAINDING",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        }
+      ],
+      "closed": [
+        {
+          "id":"1",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "CJacob Jones",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "Savannah",
+          "nextEvent": "2020-0112",
+          "nextTask": {
+            "stg": "DUE",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        },
+        {
+          "id":"2",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "Jacob JonesC",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "CSavannah",
+          "nextEvent": "2020-0112",
+          "nextTask": {
+            "stg": "SUCCESS",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        },
+        {
+          "id":"3",
+          "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOhfVZJGbflAbxO77IA1es0hbI-6ZxFbJ1S7IjJ5cLs8tS4HeABwgWEy0VYlMYcsomfTs8lory-Npzu11vglg9P4FDrTKBS58b6kGGv2sij4ncftmNx2A1DynEDPfJlES-l3X0YUBuvscdKAT5PwRzbWWG5becWHaSXUpGpK~3aFnHftvLyVoaA-npr6huKUbd-ub~CHteTmrtU2j8dQU-zgUvU3Cb9PjgBhiEUiJewIyfHk7evK9myniHvPoXNhX95zQoTsr1SIaocDlOK9QICATCbZH0nXN4xgPoAToR-1mED9BKVTIpPgPzO5bS7-SJXJvNBDvoM7AGJWfQIsRg__",
+          "name": "CJacob Jones",
+          "phone": "(201) 555-0124",
+          "caseStage": "Discovery",
+          "firmMembers": "Savannah",
+          "nextEvent": "C2020-0112",
+          "nextTask": {
+            "stg": "PAINDING",
+            "date": "2020-01-12"
+          },
+          "status": "Pending"
+        }
+      ]
+    },
+    "Practice_Areas": [
+      {
+        "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+        "categor": "Bankruplcy",
+        "city": "Kansas City",
+        "activeCase": "Yes",
+        "createdBy": "System Default"
+      },
+      {
+        "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+        "categor": "Bankruplcy",
+        "city": "Kansas City2",
+        "activeCase": "Yes",
+        "createdBy": "System Default"
+      },
+      {
+        "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+        "categor": "Bankruplcy",
+        "city": "Kansas City3",
+        "activeCase": "Yes",
+        "createdBy": "System Default"
+      }
+    ],
+    "Leads": {
+      "eSignature": {
+        "total": 75,
+        "pending": 10,
+        "signed": 25,
+        "unsent": 35,
+        "all": [
+          {
+            "id":"1",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Pending"
+          },
+          {
+            "id":"2",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Signed"
+          },
+          {
+            "id":"3",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Unsent"
+          },
+          {
+            "id":"4",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Pending"
+          },
+          {
+            "id":"5",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Signed"
+          },
+          {
+            "id":"6",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Unsent"
+          },
+          {
+            "id":"7",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Pending"
+          },
+          {
+            "id":"8",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Signed"
+          },
+          {
+            "id":"9",
+            "name": "Eleanor Pena",
+            "phone": "(201) 555-0124",
+            "status": "Unsent"
+          }
+        ]
+      },
+      "intakeForms": {
+        "total": 85,
+        "pending": 15,
+        "signed": 20,
+        "unsent": 45,
+        "all": [
+          {
+            "id":"1",
+            "name": "Eleanor Pen",
+            "phone": "(201) 555-0124",
+            "status": "Pending"
+          },
+          {
+            "id":"2",
+            "name": "Eleanor Pea",
+            "phone": "(201) 555-0124",
+            "status": "Signed"
+          },
+          {
+            "id":"3",
+            "name": "Eleanor Ena",
+            "phone": "(201) 555-0124",
+            "status": "Unsent"
+          }
+        ]
+      },
+      "communications": [
+        {
+          "id":"1",
+          "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FnYoy58OlOE5cR9B6z7Ko3BUpxSM4nPPGxsSNXH4YA3IqyqMJMbfxs6Wi2m3wmHzPFA5v4dZHOO2nsuzgItzExifexqgDSYAo65E1DrY31d-WMmemcMlL3YDsakrh9HCNPid9f1GqtIOZGgpIUSTiYm9uqDHdp8IBP2jI-1Qlfw2UQJXh9tFsSIqoFy3qbawN3~PPBiSx1ISoWQGbSSJ9k1JBsyTpiRIi263Pze0QB3H9du~obUNzbZbinpPndZ9TsDZ8GSSZgFS69p220bc3JDxhgVHIutbw2iimL4kiRuO0QrKykyUXlCpdoKd350Bvi92Lllq2p0QDLzFekToAg__",
+          "contact": "(229) 555-0109",
+          "type": "Call",
+          "message": "Hello Call"
+        },
+        {
+          "id":"2",
+          "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FnYoy58OlOE5cR9B6z7Ko3BUpxSM4nPPGxsSNXH4YA3IqyqMJMbfxs6Wi2m3wmHzPFA5v4dZHOO2nsuzgItzExifexqgDSYAo65E1DrY31d-WMmemcMlL3YDsakrh9HCNPid9f1GqtIOZGgpIUSTiYm9uqDHdp8IBP2jI-1Qlfw2UQJXh9tFsSIqoFy3qbawN3~PPBiSx1ISoWQGbSSJ9k1JBsyTpiRIi263Pze0QB3H9du~obUNzbZbinpPndZ9TsDZ8GSSZgFS69p220bc3JDxhgVHIutbw2iimL4kiRuO0QrKykyUXlCpdoKd350Bvi92Lllq2p0QDLzFekToAg__",
+          "contact": "(229) 555-0109",
+          "type": "Text",
+          "message": "Hello Text"
+        },
+        {
+          "id":"3",
+          "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FnYoy58OlOE5cR9B6z7Ko3BUpxSM4nPPGxsSNXH4YA3IqyqMJMbfxs6Wi2m3wmHzPFA5v4dZHOO2nsuzgItzExifexqgDSYAo65E1DrY31d-WMmemcMlL3YDsakrh9HCNPid9f1GqtIOZGgpIUSTiYm9uqDHdp8IBP2jI-1Qlfw2UQJXh9tFsSIqoFy3qbawN3~PPBiSx1ISoWQGbSSJ9k1JBsyTpiRIi263Pze0QB3H9du~obUNzbZbinpPndZ9TsDZ8GSSZgFS69p220bc3JDxhgVHIutbw2iimL4kiRuO0QrKykyUXlCpdoKd350Bvi92Lllq2p0QDLzFekToAg__",
+          "contact": "(229) 555-0109",
+          "type": "Email",
+          "message": "Hello Email"
+        }
+      ],
+      "task": [
+        {
+          "id":"1",
+          "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FnYoy58OlOE5cR9B6z7Ko3BUpxSM4nPPGxsSNXH4YA3IqyqMJMbfxs6Wi2m3wmHzPFA5v4dZHOO2nsuzgItzExifexqgDSYAo65E1DrY31d-WMmemcMlL3YDsakrh9HCNPid9f1GqtIOZGgpIUSTiYm9uqDHdp8IBP2jI-1Qlfw2UQJXh9tFsSIqoFy3qbawN3~PPBiSx1ISoWQGbSSJ9k1JBsyTpiRIi263Pze0QB3H9du~obUNzbZbinpPndZ9TsDZ8GSSZgFS69p220bc3JDxhgVHIutbw2iimL4kiRuO0QrKykyUXlCpdoKd350Bvi92Lllq2p0QDLzFekToAg__",
+          "name": "Jenny Wilson",
+          "taskName": "Simple",
+          "due": "12-08-2023"
+        },
+        {
+          "id":"2",
+          "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FnYoy58OlOE5cR9B6z7Ko3BUpxSM4nPPGxsSNXH4YA3IqyqMJMbfxs6Wi2m3wmHzPFA5v4dZHOO2nsuzgItzExifexqgDSYAo65E1DrY31d-WMmemcMlL3YDsakrh9HCNPid9f1GqtIOZGgpIUSTiYm9uqDHdp8IBP2jI-1Qlfw2UQJXh9tFsSIqoFy3qbawN3~PPBiSx1ISoWQGbSSJ9k1JBsyTpiRIi263Pze0QB3H9du~obUNzbZbinpPndZ9TsDZ8GSSZgFS69p220bc3JDxhgVHIutbw2iimL4kiRuO0QrKykyUXlCpdoKd350Bvi92Lllq2p0QDLzFekToAg__",
+          "name": "Jane Cooper",
+          "taskName": "Simple2",
+          "due": "12-08-2023"
+        }
+      ],
+      "addedLeads": [
+        {
+          "id":"1",
+          "heading": "Lead Added",
+          "total": 75,
+          "status": "On Progress",
+          "desc":"The entire firm so everyone can see case"
+        },
+        {
+          "id":"2",
+          "heading": "Lead Added2",
+          "total": 0,
+          "status": "On Waiting",
+          "desc":"The entire firm so everyone can see case"
+        },
+        {
+          "id":"3",
+          "heading": "Lead Added3",
+          "total": 100,
+          "status": "Complete",
+          "desc":"The entire firm so everyone can see case"
+        },
+        {
+          "id":"4",
+          "heading": "Lead Added4",
+          "total": 60,
+          "status": "On Progress",
+          "desc":"The entire firm so everyone can see case"
+        },
+        {
+          "id":"5",
+          "heading": "Lead Added5",
+          "total": 54,
+          "status": "On Progress",
+          "desc":"The entire firm so everyone can see case"
+        }
+      ],
+      "conversions":[
+        {
+          "hour":"10:00-11:00",
+          "date_day":"23",
+          "date_month":"MARCH",
+          "case_info":"Case Info"
+        },
+        {
+          "hour":"10:00-11:00",
+          "date_day":"23",
+          "date_month":"MARCH",
+          "case_info":"Case Info"
+        },
+        {
+          "hour":"10:00-11:00",
+          "date_day":"23",
+          "date_month":"MARCH",
+          "case_info":"Case Info"
+        }
+      ]
+    }
+  }
+  
