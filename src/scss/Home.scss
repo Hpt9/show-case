@@ -1,0 +1,22 @@
+.home-main-div{
+    width: calc(100% - 260px);
+    height: 100%;
+    padding: 24px 32px;
+    //background-color: #EFF2F4;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width:1024px) {
+    .home-main-div{
+        width: calc(100% - 90px);
+    }
+}
+@media screen and (max-width:800px) {
+    .home-main-div{
+        width: 100%;
+    }
+}

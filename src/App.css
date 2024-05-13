@@ -1,0 +1,41 @@
+@import url("../public/font/stylesheet.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' !important;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+#root{
+    height: 100vh;
+    overflow: hidden;
+}
+.menu_main{
+    display: flex;
+    height: calc(100vh - 97px);
+    z-index: 99;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a5ceed; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(67, 154, 231); 
+    border-radius:10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 129, 241); 
+  }

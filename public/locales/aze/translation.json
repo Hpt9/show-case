@@ -1,0 +1,367 @@
+{
+  "SideMenu": {
+    "Account": "Hesab",
+    "Help": "Yardım",
+    "Home": "Əsas Səhifə",
+    "Calendar": "Təqvim",
+    "Task": "Tapşırıq",
+    "Contacts": "Əlaqələr",
+    "Cases": "Davalar",
+    "Communication": "Əlaqə",
+    "Leads": "Şponlar",
+    "Support": "Dəstək",
+    "Settings": "Tənzimləmələr"
+  },
+  "Home_Page": {
+    "tab_names": {
+      "first": {
+        "name": "Demo əldə edin",
+        "desc": "Məşğul olduğunuzu bilirəm – icazə verin MyCase-i nümayiş etdirim",
+        "butt": "Demo planlaşdırın"
+      },
+      "second": {
+        "name": "Üzv dəvət et",
+        "desc": "Hər kəsin işi görə bilməsi üçün bütün formanı dəvət edin",
+        "butt": "Firma Üzvünü Dəvət Edin"
+      },
+      "third": {
+        "name": "Rəhbərliklə həyata keçirin",
+        "desc": "Dava, bütün hadisəni, tapşırığı və s. Yadda Saxlayan rəqəmsal fayldır",
+        "butt": "Dava əlavə edin"
+      },
+      "fourth": {
+        "name": "Dava əlavə edin",
+        "desc": "Bələdçi məlumatlarla firmanızın qurulmasını tez əldə edin",
+        "butt": "Daha ətraflı"
+      }
+    },
+    "item_names": {
+      "add_item": "Element əlavə edin",
+      "first": {
+        "name": "Hadisə",
+        "desc": "Dizayn"
+      },
+      "second": {
+        "name": "Tapşırıq",
+        "desc": "Yeni"
+      },
+      "third": {
+        "name": "Şpon",
+        "desc": "Yeni"
+      },
+      "fourth": {
+        "name": "Əlaqə",
+        "desc": "Müştəri"
+      }
+    },
+    "graphs": {
+      "chart": {
+        "h1": "Zaman üzrə şponlar",
+        "semails": "Göndərilən Cəmi E-poçt",
+        "cemails": "Tutulmuş E-poçtlar",
+        "wcap": "Veb çəkmə"
+      },
+      "calendar": {
+        "h1": "Bugünün Hadisələri",
+        "p": "Müştəri ilə görüş",
+        "sp": "Zoom görüşməsi"
+      }
+    },
+    "recent_activity": {
+      "h1": "Son Fəaliyyətlər",
+      "d1": "Hamısı",
+      "d2": "Faktura",
+      "d3": "Hadisələr",
+      "d4": "Sənədlər",
+      "d5": "Tapşırıqlar",
+      "d6": "Silinmiş",
+      "table": {
+        "headers": {
+          "d1": "Ad,Tel",
+          "d2": "Şirkət",
+          "d3": "Tarix",
+          "d4": "Vəziyyət"
+        }
+      }
+    }
+  },
+  "Calendar": {
+    "tabs": {
+      "t1": "Gün",
+      "t2": "Həftə",
+      "t3": "Ay",
+      "t4": "Gündəm"
+    }
+  },
+  "Task": {
+    "h1": "Tapşırıq",
+    "btn": "+ Tapşırıq Artır",
+    "tabs": {
+      "t1": "Sırada",
+      "t2": "Davam Edir",
+      "t3": "Təftiş lazımdır",
+      "t4": "Bitmiş"
+    },
+    "modal":{
+      "h1":"Tapşırıq əlavə edin",
+      "name":"Tapşırıq Adı",
+      "date":"Bitiş tarixi",
+      "s1":"Dava və ya Rəhbər seçin",
+      "prio":"Prioritet",
+      "high":"Yüksək",
+      "medium":"Orta",
+      "low":"Aşağı",
+      "check":"Yoxlama siyahısı",
+      "desc":"Təsvir",
+      "rem":"Xatırlatma",
+      "t1":"Xəbərdarlıq",
+      "t2":"Popup",
+      "t3":"E-poçt",
+      "b1":"Ləğv et",
+      "b2":"Tapşırığı Yadda Saxla"
+    }
+
+  },
+  "Contacts": {
+    "tabs": {
+      "t1": "Insanlar",
+      "t2": "Rollar",
+      "t3": "Şirkət"
+    },
+    "type_changer": {
+      "active": "Aktiv",
+      "archived": "Arxivlənmiş"
+    },
+    "people": {
+      "h1": "Insanlar",
+      "btn": "+İnsan Əlavə Et",
+      "addCompany":"+Şirkət Əlavə Et",
+      "company":"Şirkət",
+      "table": {
+        "hs": {
+          "np": "Ad,Tel",
+          "cases": "Davalar",
+          "group": "Qrup",
+          "ll": "Son Giriş",
+          "added": "Artırıldı",
+          "assignedTo": "Tapşırılıb",
+          "Roles":"Rollar",
+          "addRole":"+Rol Əlavə Et",
+          "status":{
+            "Inactive":"QEYRİ-AKTİV",
+            "Bouncing":"GÖZLƏMƏDƏ",
+            "Active":"AKTİV",
+            "Recent":"SON"
+          }
+        }
+      }
+    },
+    "modal1":{
+      "h1":"Şəxs əlavə edin",
+      "h1e":"Şəxsi dəyişin",
+      "arc":"Arxivlə",
+      "photo":"Şəkil Yüklə",
+      "file":"Ən azı 256 * 256px PNG və ya JPG faylı",
+      "fn":"Ad",
+      "ln":"Soyad",
+      "pGroup":"İnsan Qrupu",
+      "client":"Müştəri",
+      "emp":"İşçi",
+      "em":"E-poçt",
+      "phone":"Telefon",
+      "address":"Ünvan",
+      "city":"Şəhər",
+      "country":"Ölkə",
+      "b1":"Ləğv et",
+      "b2":"Şəxsi Yadda Saxla",
+      "b3":"Dəyişikliyi Yadda Yadda Saxla"
+    },
+    "modal2":{
+      "h1":"Rol Artır",
+      "h1e":"Rolu dəyişin",
+      "h2":"Rolun Adı",
+      "b1":"Ləğv et",
+      "b2":"Yadda Saxla",
+      "b3":"Dəyişikliyi Yadda Yadda Saxla"
+    },
+    "modal3":{
+      "h1":"Şirkət Artır",
+      "cn":"Şirkətin Adı",
+      "em":"E-poçt",
+      "web":"Veb Səhifə",
+      "phone":"Telefon",
+      "fxN":"Faks Nömrəsi",
+      "address":"Ünvan",
+      "city":"Şəhər",
+      "desc":"Təsvir",
+      "b1":"Ləğv et",
+      "b2":"Şirkəti Yadda Saxla"
+    }
+  },
+  "Cases":{
+    "addCase":"+Dava Əlavə Et",
+    "open":"Açıq",
+    "addArea":"+Sahə Əlavə Et",
+    "editArea":"Təcrübə Sahəsini Dəyiş",
+    "b1":"Ləğv et",
+    "b2":"Dəyişikliyi Yadda Saxla",
+    "closed":"Bağlı",
+    "pArea":"Təcrübə sahəsi",
+    "lAttomey":"Baş Vəkil",
+    "caseStage":"Dava Mərhələsi",
+    "applyFilters":"Filtrləri tətbiq edin",
+    "caseInsights":"Dava Analizləri",
+    "table":{
+      "name":"Ad",
+      "caseStage":"Dava Mərhələsi",
+      "firmMember":"Firma Üzvü",
+      "nextEvent":"Növbəti Tədbir",
+      "nextTask":"Növbəti Tapşırıq",
+      "status":"Status",
+      "nameLoc":"Adı, Yeri",
+      "activeCases":"Aktiv Davalar",
+      "createdBy":"Yaradılıb"
+    },
+    "tabs":{
+      "n1":"Yeni Dava",
+      "n2":"Bağlanmış Dava",
+      "n3":"Dəyişmiş Dava",
+      "n4":"Açılmış Dava",
+      "n5":"Dava Bağlanır",
+      "nEnd":"Son 30 Gündə."
+    },
+    "pie":{
+      "h1":"Təcrübə Sahəsi üzrə Açıq İşlər",
+      "h2":"Top 5 Təcrübə Sahəsi",
+      "sp":"Ümumi Davalar"
+    },
+    "bar":{
+      "tab1":"Kəşf",
+      "tab2":"Sınaqda",
+      "tab3":"Xəttdə",
+      "tab4":"Kəşf",
+      "tab5":"Sınaqda",
+      "h1":"Mərhələlərə görə davalar",
+      "h2":"Top 5 Mərhələlə"
+    },
+    "lastPart":{
+      "h1":"Zamanla Davalar",
+      "sp1":"Açılmış Davalar"
+    },
+    "modal":{
+      "h1":"Dava Əlavə Et",
+      "h1e":"Davada Dəyişiklik Edin",
+      "name":"Dava Adı",
+      "phone":"Telefon",
+      "pArea":"Təcrübə sahəsi",
+      "caseNum":"Dava nömrəsi",
+      "office":"Ofis",
+      "oDate":"Açılış tarixi",
+      "sOfLimit":"Məhdudiyyətlər müddəti",
+      "cStage":"Dava Mərhələsi",
+      "desc":"Təsvir",
+      "sc":"Bağla",
+      "save":"Dava Yadda Saxla",
+      "saveEdit":"Dəyişikliyi Yadda Saxla"
+    }
+  },
+  "Communication":{
+    "h1":"Bizimlə Əlaqə Yadda Saxlayın",
+    "b1":"E-poçt Göndərin",
+    "modal":{
+      "h1":"E-poçt",
+      "mH":"Mesaj Başlığı",
+      "sbj":"Mövzu",
+      "cnt":"Məzmun",
+      "to":"Kimə",
+      "sc":" Bağla",
+      "save":"Göndər"
+    }
+  },
+  "months": {
+    "January": "Yanvar",
+    "February": "Fevral",
+    "March": "Mart",
+    "April": "Aprel",
+    "May": "May",
+    "June": "Iyun",
+    "July": "Iyul",
+    "August": "Avqust",
+    "September": "Sentyabr",
+    "October": "Oktyabr",
+    "November": "Noyabr",
+    "December": "Dekabr"
+  },
+  "Leads":{
+    "leadsDashborad":"Şpon İdarə Paneli",
+    "leadsInsight":"Şpon İnsight",
+    "addLead":"+Şpon Əlavə Et",
+    "insight":{
+      "conv":"Konversiya",
+      "total":"Ümumi",
+      "comp":"Bitmiş",
+      "proc":"Davam Edən",
+      "val":"Şpon Dəyəri",
+      "entire":"Hər kəsin işi görə bilməsi üçün bütün firma",
+      "web":"Veb Səhifə",
+      "overTime":"Zamanla Aparıcılar",
+      "month":"Ay",
+      "date":"Tarix"
+    },
+    "dashboard":{
+      "eSigRequest":"eİmza Sorğuları",
+      "communications":"Əlaqələr",
+      "all":"Hamısı",
+      "name":"Ad",
+      "phone":"Tel",
+      "status":"Status",
+      "pending":"Gözləmədə",
+      "signed":"İmzalanıb",
+      "unsent":"Göndərilməmiş",
+      "intake":"Qəbul Formaları",
+      "comm":"Əlaqələr",
+      "task":"Tapşırıq",
+      "taskName":"Tapşırıq Adı",
+      "due":"Kimi",
+      "call":"Zəng",
+      "text":"Mesaj",
+      "email":"Email",
+      "conts":"Kişi",
+      "type":"Tip",
+      "mess":"Mesaj"
+    },
+    "modal":{
+      "h1":"Şpon əlavə edin",
+      "h2":"Potensial Yeni Müştəri",
+      "fn":"Ad",
+      "ln":"Soyad",
+      "em":"E-poçt",
+      "ph":"Telefon",
+      "rs":"İstinad Mənbəsi",
+      "refBy":"Istinad Olunub",
+      "lD":"Şpon Təfərrüatları",
+      "h3":"Potensial Yeni Dava",
+      "date":"Əlavə Edilən Tarix",
+      "high":"Yüksək",
+      "medium":"Orta",
+      "low":"Aşağı",
+      "pArea":"Təcrübə Sahəsi",
+      "vOfCase":"İşin Potensial Dəyəri",
+      "desc":"Potensial Dalın Təsviri",
+      "b1":"Ləğv et",
+      "b2":"Şponu Yadda Saxla"
+    }
+  },
+  "settings":{
+    "h1":"Tənzimləmələr",
+    "Settings": "Tənzimləmələr",
+    "My Profile & Info": "Profilim və Məlumatım",
+    "Add Firm User": "Firma İstifadəçi Əlavə et",
+    "Firm User Permissions": "Firma İstifadəçi Qaydaları",
+    "Integration & Apps": "İnteqrasiya və Proqramlar",
+    "Upgrade Today": "Bu gün Yüksəldin",
+    "Private Policy": "Özəl Siyasət",
+    "Terms": "Şərtlər",
+    "Log Out": "Çıxış"
+  }
+}

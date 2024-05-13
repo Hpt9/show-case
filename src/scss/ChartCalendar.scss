@@ -1,0 +1,207 @@
+.chart-cal-div{
+    width: 100%;
+    display: flex;
+    column-gap: 24px;
+    &>div{
+        padding: 20px;
+        border-radius: 24px;
+        background: var(--Foundation-Blue-B0, #FFF);
+        height: 600px;
+        transition: all .15s ease-in-out;
+    }
+    .chart-div{
+        width: 67%;
+        .chart-header{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &>p{
+                color: var(--Text, #222427);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 140%;
+            }
+            &>img{
+
+            }
+        }
+    }
+    .calendar-div{
+        position: relative;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        .calendar-header{
+            color: var(--Text, #222427);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 140%;
+        }
+    }
+    .all-sent-recieved-data{
+        display: flex;
+        column-gap: 15%;
+        margin-top: 40px;
+        margin-bottom: 62px;
+        &>div>p:first-child{
+            color: var(--Text, #222427);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 140%;
+        }
+        &>div>p:last-child{
+            color: var(--Paragraph, #747684);
+            font-size: 14px;
+            line-height: 160%; /* 22.4px */
+        }
+    }
+}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.chart-div > div.recharts-responsive-container > div > svg > g.recharts-layer.recharts-cartesian-axis.recharts-yAxis.yAxis > line{
+    visibility: hidden;
+}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.chart-div > div.recharts-responsive-container > div > svg > g.recharts-layer.recharts-cartesian-axis.recharts-xAxis.xAxis > line{
+    visibility: hidden;
+}
+.recharts-cartesian-axis-tick-line{
+    visibility: hidden;
+}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.chart-div > div.recharts-responsive-container > div > svg > g.recharts-cartesian-grid > g.recharts-cartesian-grid-vertical > line{
+    visibility: hidden;
+    background-color: #00b5ed;
+}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.chart-div > div.recharts-responsive-container > div > svg > g.recharts-layer.recharts-line > path{
+    stroke: #60DCFF;
+    stroke-width: 2px;
+    filter: drop-shadow(0 20px 10px #00c8ff);
+}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.chart-div > div.recharts-responsive-container > div > svg > g.recharts-layer.recharts-line > g.recharts-layer.recharts-line-dots > circle:nth-child(1){
+    visibility: hidden;
+}
+.css-nk89i7-MuiPickersCalendarHeader-root{
+    padding-left: 0 !important;
+}
+.calendar-div{
+    .MuiPickersArrowSwitcher-root,.css-12mkn7b-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton{
+        display: none;
+    }
+}
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+    border-radius: 20px !important;
+    height: 30px !important;
+    position: relative;
+    top: 3px;
+}
+.css-1q04gal-MuiDateCalendar-root{
+    width: 100% !important;
+}
+.event-div{
+    overflow-y: scroll;
+    
+    width: 100%;
+
+    
+    &>div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    &>div{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        &>div:first-child{
+            min-width: 46px;
+            display: flex;
+            align-items: center;
+        }
+        &>div:first-child>img{
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+        }
+        &>div:nth-child(2){
+            margin-left: 10px;
+            &>p{
+                color: var(--Text, #222427);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 140%;
+            }
+            &>div{
+                display: flex;
+                align-items: center;
+                column-gap: 4px;
+                &>span{
+                    color: var(--Paragraph, #747684);
+                    font-size: 12px;
+                    line-height: 160%;
+                }
+            }
+        }
+        &>div:nth-child(3){
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: 100%;
+            height: 100%;
+            column-gap: 4px;
+            &>div:first-child{
+                display: flex;
+                align-items: center;
+                &>span{
+                    color: var(--Paragraph, #747684);
+                    font-size: 10px;
+                    line-height: 160%;
+                }
+            }
+        } 
+    }
+}
+.blocker{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 70px;
+    z-index: 10000000;
+}
+.event-today:not(:last-of-type){
+    border-bottom: 1px solid #F5F6F7;
+}
+.event-today:first-child{
+    padding-bottom: 16px;
+    padding-top: 0 !important;
+}
+.event-today:not(:last-of-type),.event-today:not(:first-of-type){padding: 16px 0;}
+.event-todat:last-of-type{padding-top: 16px;padding-bottom: 0 !important;}
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{margin-bottom: 24px;}
+@media screen and (max-width:1200px) {
+    #root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{
+        height: 485px;
+    }
+}
+@media screen and (max-width:900px) {
+    #root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{
+        height: 610px !important;
+    }
+}
+@media screen and (max-width:1199px) {
+    #root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{
+        height: 520px !important;
+    }
+}
+
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{
+    height: 350px ;
+}
+
+@media screen and (max-width:800px) {
+    .chart-cal-div{
+        flex-direction: column;
+        row-gap: 20px;
+        &>div{
+            width: 100% !important;
+        }
+    }
+}

@@ -1,0 +1,365 @@
+{
+  "SideMenu": {
+    "Account": "Account",
+    "Help": "Help",
+    "Home": "Home",
+    "Calendar": "Calendar",
+    "Task": "Task",
+    "Contacts": "Contacts",
+    "Cases": "Cases",
+    "Communication": "Communication",
+    "Leads": "Leads",
+    "Support": "Support",
+    "Settings": "Settings"
+  },
+  "Home_Page": {
+    "tab_names": {
+      "first": {
+        "name": "Gate a Demo",
+        "desc": "I know you are busy- let me demo MyCase",
+        "butt": "Schedule a Demo"
+      },
+      "second": {
+        "name": "Invite Member",
+        "desc": "Invite the entrie firm so everyone can see case",
+        "butt": "Invite Firm Member"
+      },
+      "third": {
+        "name": "Guided Implementate",
+        "desc": "A case a digital file that holds all event, task etc",
+        "butt": "Add Case"
+      },
+      "fourth": {
+        "name": "Add a Case",
+        "desc": "Quicly get your firm setup with guided data",
+        "butt": "Learn More"
+      }
+    },
+    "item_names": {
+      "add_item": "Add Item",
+      "first": {
+        "name": "Event",
+        "desc": "Design"
+      },
+      "second": {
+        "name": "Task",
+        "desc": "New"
+      },
+      "third": {
+        "name": "Lead",
+        "desc": "New"
+      },
+      "fourth": {
+        "name": "Contact",
+        "desc": "Client"
+      }
+    },
+    "graphs": {
+      "chart": {
+        "h1": "Leads Over Time",
+        "semails": "Total Emails Sent",
+        "cemails": "Emails Captured",
+        "wcap": "Web Capture"
+      },
+      "calendar": {
+        "h1": "Today's Event",
+        "p": "Meeting With Client",
+        "sp": "Zoom meeting"
+      }
+    },
+    "recent_activity": {
+      "h1": "Recent Activity",
+      "d1": "All",
+      "d2": "Invoice",
+      "d3": "Events",
+      "d4": "Documents",
+      "d5": "Tasks",
+      "d6": "Deleted",
+      "table": {
+        "headers": {
+          "d1": "Name,phone",
+          "d2": "Company",
+          "d3": "Date",
+          "d4": "Status"
+        }
+      }
+    }
+  },
+  "Calendar": {
+    "tabs": {
+      "t1": "Day",
+      "t2": "Week",
+      "t3": "Month",
+      "t4": "Agenda"
+    }
+  },
+  "Task": {
+    "h1": "Task",
+    "btn": "+ Add Task",
+    "tabs": {
+      "t1": "In Queue",
+      "t2": "In Progress",
+      "t3": "Need Revision",
+      "t4": "Complete"
+    },
+    "modal":{
+      "h1":"Add Task",
+      "name":"Task Name",
+      "date":"Due Date",
+      "s1":"Select Case or Lead",
+      "prio":"Priority",
+      "high":"High",
+      "medium":"Medium",
+      "low":"Low",
+      "check":"Checklist",
+      "desc":"Description",
+      "rem":"Reminder",
+      "t1":"Alert",
+      "t2":"Popup",
+      "t3":"Email",
+      "b1":"Cancel",
+      "b2":"Save Task"
+    }
+  },
+  "Contacts": {
+    "tabs": {
+      "t1": "People",
+      "t2": "Roles",
+      "t3": "Company"
+    },
+    "type_changer": {
+      "active": "Active",
+      "archived": "Archived"
+    },
+    "people": {
+      "h1": "People",
+      "btn": "+Add People",
+      "addCompany":"+Add Company",
+      "company":"Company",
+      "table": {
+        "hs": {
+          "np": "Name,Phone",
+          "cases": "Cases",
+          "group": "Group",
+          "ll": "Last Login",
+          "added": "Added",
+          "assignedTo": "Assinged To",
+          "Roles":"Roles",
+          "addRole":"+Add Role",
+          "status":{
+            "Inactive":"INACTIVE",
+            "Bouncing":"BOUNCING",
+            "Active":"ACTIVE",
+            "Recent":"RECENT"
+          }
+        }
+      }
+    },
+    "modal1":{
+      "h1":"Add Person",
+      "h1e":"Edit Person",
+      "arc":"Arcive",
+      "photo":"Upload Photo",
+      "file":"At least 256 * 256px PNG or JPG file",
+      "fn":"First Name",
+      "ln":"Last Name",
+      "pGroup":"People Group",
+      "client":"Client",
+      "emp":"Employer",
+      "em":"Email",
+      "phone":"Phone Number",
+      "address":"Address",
+      "city":"City",
+      "country":"Country",
+      "b1":"Cancel",
+      "b2":"Save Person",
+      "b3":"Save Edit"
+    },
+    "modal2":{
+      "h1":"Add Role",
+      "h1e":"Edit Role",
+      "h2":"Role Name",
+      "b1":"Cancel",
+      "b2":"Save",
+      "b3":"Save Edit"
+    },
+    "modal3":{
+      "h1":"Add Company",
+      "cn":"Company Name",
+      "em":"Email",
+      "web":"Website",
+      "phone":"Phone Number",
+      "fxN":"Fax Number",
+      "address":"Address",
+      "city":"City",
+      "desc":"Description",
+      "b1":"Cancel",
+      "b2":"Save Company"
+    }
+  },
+  "Cases":{
+    "addCase":"+Add Case",
+    "open":"Open",
+    "addArea":"+Add Area",
+    "editArea":"Edit Practice Area",
+    "b1":"Close",
+    "b2":"Save Edit",
+    "closed":"Closed",
+    "pArea":"Practice Area",
+    "lAttomey":"Lead Attomey",
+    "caseStage":"Case Stage",
+    "applyFilters":"Apply Filters",
+    "caseInsights":"Case Insights",
+    "table":{
+      "name":"Name",
+      "caseStage":"Case Stage",
+      "firmMember":"Firm Member",
+      "nextEvent":"Next Event",
+      "nextTask":"Next Task",
+      "status":"Status",
+      "nameLoc":"Name, Location",
+      "activeCases":"Active Cases",
+      "createdBy":"Created By"
+    },
+    "tabs":{
+      "n1":"New Case In",
+      "n2":"Case Closed In",
+      "n3":"Case Changed In",
+      "n4":"Case Oppened In",
+      "n5":"Case Closes In",
+      "nEnd":"Last 30 Day’s"
+    },
+    "pie":{
+      "h1":"Open Cases by Practice Area",
+      "h2":"Top 5 Practice Areas",
+      "sp":"Total Cases"
+    },
+    "bar":{
+      "tab1":"Discovery",
+      "tab2":"In Trial",
+      "tab3":"On Hold",
+      "tab4":"Discovery",
+      "tab5":"In Trial",
+      "h1":"Cases by Stages",
+      "h2":"Top 5 Stages"
+    },
+    "lastPart":{
+      "h1":"Cases Over Time",
+      "sp1":"Opened Cases"
+    },
+    "modal":{
+      "h1":"Add Case",
+      "h1e":"Edit Case",
+      "name":"Case Name",
+      "phone":"Phone Number",
+      "pArea":"Practice Area",
+      "caseNum":"Case Number",
+      "office":"Office",
+      "oDate":"Opened Date",
+      "sOfLimit":"Statute of Limitations",
+      "cStage":"Case Stage",
+      "desc":"Description",
+      "sc":"Close",
+      "save":"Save Case"
+    }
+  },
+  "Communication":{
+    "h1":"Contact With Us",
+    "b1":"Send Email",
+    "modal":{
+      "h1":"EMail",
+      "mH":"Message Header",
+      "sbj":"Subject",
+      "cnt":"Content",
+      "to":"To",
+      "sc":" Close",
+      "save":"Send"
+    }
+  },
+  "months": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  },
+  "Leads":{
+    "leadsDashborad":"Lead Dashborad",
+    "leadsInsight":"Lead Insight",
+    "addLead":"+Add Lead",
+    "insight":{
+      "conv":"Conversion",
+      "total":"Total",
+      "comp":"Complete",
+      "proc":"Processing",
+      "val":"Lead Value",
+      "entire":"The entire firm so everyone can see case",
+      "web":"Website",
+      "overTime":"Leads Over Time",
+      "month":"Month",
+      "date":"Date"
+    },
+    "dashboard":{
+      "eSigRequest":"eSignature Requests",
+      "communications":"Communications",
+      "all":"All",
+      "name":"Name",
+      "phone":"Phone",
+      "status":"Status",
+      "pending":"Pending",
+      "signed":"Signed",
+      "unsent":"Unsent",
+      "intake":"Intake Forms",
+      "comm":"Communications",
+      "task":"Task",
+      "taskName":"Task Name",
+      "due":"Due",
+      "call":"Call",
+      "text":"Text",
+      "email":"Email",
+      "conts":"Contact",
+      "type":"Type",
+      "mess":"Message"
+    },
+    "modal":{
+      "h1":"Add Lead",
+      "h2":"Potential New Client",
+      "fn":"First Name",
+      "ln":"Last Name",
+      "em":"Email",
+      "ph":"Phone",
+      "rs":"Refferal Source",
+      "refBy":"Reffered By",
+      "lD":"Lead Details",
+      "h3":"Potential New Case",
+      "date":"Date Added",
+      "high":"High",
+      "medium":"Medium",
+      "low":"Low",
+      "pArea":"Practice Area",
+      "vOfCase":"Potentials Value of Case",
+      "desc":"Potential Case Description",
+      "b1":"Cancel",
+      "b2":"Save Lead"
+    }
+  },
+  "settings":{
+    "h1":"Settings",
+    "Settings": "Settings",
+    "My Profile & Info": "My Profile & Info",
+    "Add Firm User": "Add Firm User",
+    "Firm User Permissions": "Firm User Permissions",
+    "Integration & Apps": "Integration & Apps",
+    "Upgrade Today": "Upgrade Today",
+    "Private Policy": "Private Policy",
+    "Terms": "Terms",
+    "Log Out": "Log Out"
+  }
+}

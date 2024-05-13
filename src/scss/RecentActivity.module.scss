@@ -1,0 +1,57 @@
+.recent_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 24px;
+}
+.rca{
+    color: var(--Text, #222427);
+
+    /* H 3 */
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+}
+@media screen and (max-width:800px) {
+    .recent_div{
+        background-color: #EFF2F4;
+    }
+    .table_tabs{
+        display: none !important;
+    }
+}
+.recent_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table_tabs{
+    padding: 4px;
+    border-radius: 24px;
+    border: 1px solid var(--Stock, #E5E8EF);
+    display: flex;
+    column-gap: 8px;
+    width: fit-content;
+    &>div{
+        border-radius: 18px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 16px;
+        color: var(--Paragraph, #747684);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 160%;
+        transition: all .15s ease-in-out;
+    }
+}
+.active_tab{
+    background-color: var(--Button, #2C60EA) !important;
+    color: var(--Foundation-Blue-B0, #FFF) !important;
+}
