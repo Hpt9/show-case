@@ -15,7 +15,7 @@ const valiSchema = Yup.object().shape({
     phone: Yup.string().required('Required'),
     status: Yup.string().required("Required")
 });
-const ESigEditModal = ({ closeModal,id,reloadActive }: any) => {
+const InTakeEditMenu = ({ closeModal,id,reloadActive }: any) => {
     const [data, setData] = useState<any>();
     const [isLoading, setIsLoading] = useState(true);
     const {t} = useTranslation();
@@ -59,7 +59,7 @@ const ESigEditModal = ({ closeModal,id,reloadActive }: any) => {
                     exit={{ scale: 0.8, opacity: 0 }}
                     transition={{ duration: 0.2 }}>
                     <div className="form-header">
-                        <h3>Edit Esignature</h3>
+                        <h3>Edit InTakeForm</h3>
                         <div onClick={close}><CloseRoundedIcon /></div>
                         
                     </div>
@@ -93,4 +93,4 @@ const ESigEditModal = ({ closeModal,id,reloadActive }: any) => {
         </AnimatePresence>
     );
 };
-export default ESigEditModal;
+export default InTakeEditMenu;

@@ -13,7 +13,8 @@ export default function InTakeForms() {
   const [dataTSent, setDataTSent] = useState();
   const [data, setData] = useState();
   const { t } = useTranslation();
-
+  const [key, setKey] = useState(600);
+  const reloadActive = () => {setKey(prevKey => prevKey + 1);};
   useEffect(() => {
     axios
       .get("http://localhost:8000/Leads")
@@ -40,26 +41,27 @@ export default function InTakeForms() {
 
   const renderComponent = () => {
     if (whichToShow === "all") {
-      return <All data={dataTSent} />;
+      return <All data={dataTSent} reloadActive={reloadActive}/>;
     } else if (whichToShow === "pending") {
-      return <Pending data={dataTSent} />;
+      return <Pending data={dataTSent}  reloadActive={reloadActive}/>;
     } else if (whichToShow === "signed") {
-      return <Signed data={dataTSent} />;
+      return <Signed data={dataTSent}  reloadActive={reloadActive}/>;
     } else if (whichToShow === "unsent") {
-      return <UnSent data={dataTSent} />;
+      return <UnSent data={dataTSent}  reloadActive={reloadActive}/>;
     }
   };
   return (
-    <div className="esignature">
+    <div className="esignature" key={key}>
       <div
-      style={{
-        position:"sticky",
-        paddingTop:"5px",
-        top:"-20px",
-        width:"100%",
-        backgroundColor:"white",
-        zIndex:"2000000000"
-        }} className="trt">
+      // style={{
+      //   position:"sticky",
+      //   paddingTop:"5px",
+      //   top:"-20px",
+      //   width:"100%",
+      //   backgroundColor:"white",
+      //   zIndex:"2000000000"
+      //   }} className="trt"
+        >
         <h1>Intake Forms</h1>
       </div>
       <div className="records">
@@ -81,15 +83,15 @@ export default function InTakeForms() {
           </CircularProgress>
         </div>
       </div>
-      <div className="esig_table" style={{position:"relative"}}>
+      <div className="esig_table">
         <div
-        style={{
-            position:"sticky",
-            paddingTop:"5px",
-            top:"12px",
-            width:"100%",
-            backgroundColor:"white"
-        }}
+        // style={{
+        //     position:"sticky",
+        //     paddingTop:"5px",
+        //     top:"12px",
+        //     width:"100%",
+        //     backgroundColor:"white"
+        // }}
         >
             <div className="type_changer">
             <button

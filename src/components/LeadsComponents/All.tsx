@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'
 import Dot3 from "../ph/3dot.svg"
-import ESigEditModal from './ESigEditModal';
+import InTakeEditMenu from './InTakeEditMenu';
 
 export default function All({data,reloadActive}:any) {
     const [isMobileView, setIsMobileView] = useState<boolean>(false);
@@ -29,7 +29,7 @@ export default function All({data,reloadActive}:any) {
                                     <p>{e.name}</p>
                                     <p>{e.phone}</p>
                                 </div>
-                                <div onClick={e=>{editClicked(e.id);openModal()}}>
+                                <div onClick={el=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export default function All({data,reloadActive}:any) {
             )}
             {isModalOpen && (
                 <div className="formToTask3">
-                    <ESigEditModal id={selectedItemId} closeModal={closeModal} reloadActive={reloadActive} />
+                    <InTakeEditMenu id={selectedItemId} closeModal={closeModal} reloadActive={reloadActive} />
                 </div>
             )}
     </div>

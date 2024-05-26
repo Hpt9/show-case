@@ -1,27 +1,35 @@
-import React,{useState,useEffect} from 'react'
+import {useState,useEffect} from 'react'
 import Dot3 from "../ph/3dot.svg"
-export default function Signed({data}:any) {
-  const [isMobileView, setIsMobileView] = useState<boolean>(false);
+import InTakeEditMenu from './InTakeEditMenu';
 
+export default function Signed({data,reloadActive}:any) {
+  const [isMobileView, setIsMobileView] = useState<boolean>(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
+  const openModal = () => {setIsModalOpen(true);};
+  const closeModal = () => {setIsModalOpen(false);};
   useEffect(() => {
       const handleResize = () => {setIsMobileView(window.innerWidth < 800);};
       handleResize(); // Check initial width
       window.addEventListener('resize', handleResize);
       return () => {window.removeEventListener('resize', handleResize);};}, 
   [])
-
+  function editClicked(id:string) {
+    console.log(id)
+    setSelectedItemId(id);
+}
   return (
     <div>
         {isMobileView ? (
                 <div className='lead_mobile'>
-                    {data && data.map((e,i)=>(
+                    {data && data.map((e:any,i:any)=>(
                         <div className="lead_mobile_user"  key={i+"lopmmmvasa"}>
                             <div>
                                 <div>
                                     <p>{e.name}</p>
                                     <p>{e.phone}</p>
                                 </div>
-                                <div>
+                                <div  onClick={el=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -39,7 +47,7 @@ export default function Signed({data}:any) {
                 </div>
             ):(
                 <div className='lead_pc'>
-                    {data && data.map((e,i)=>(
+                    {data && data.map((e:any,i:any)=>(
                         <div className="lead_pc_user"  key={i+"lopss8mmmv"}>
                             <div>{e.name}</div>
                             <div>{e.phone}</div>
@@ -49,11 +57,16 @@ export default function Signed({data}:any) {
                                     {e.status}
                                 </span>
                             </div>
-                            <div>
+                            <div  onClick={el=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>
                     ))}
+                </div>
+            )}
+            {isModalOpen && (
+                <div className="formToTask3">
+                    <InTakeEditMenu id={selectedItemId} closeModal={closeModal} reloadActive={reloadActive} />
                 </div>
             )}
     </div>
