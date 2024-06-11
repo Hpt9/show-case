@@ -65,7 +65,8 @@ const SendMailModal = ({ closeModal }: any) => {
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     exit={{ scale: 0.8, opacity: 0 }}
-                    transition={{ duration: 0.2 }}>
+                    transition={{ duration: 0.2 }}
+                    >
                     <div className="form-header">
                         <h3>{t("Communication.modal.h1")}</h3>
                         <div onClick={close}><CloseRoundedIcon /></div>

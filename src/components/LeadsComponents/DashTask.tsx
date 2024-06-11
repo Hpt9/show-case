@@ -3,11 +3,29 @@ import axios from "axios";
 import Dot3 from "../ph/3dot.svg";
 import Dot from "../ph/Dot.svg";
 import { useTranslation } from 'react-i18next';
+import DashTaskEditModal from "./DashTaskEditModal";
 
 export default function DashTask() {
     const {t} = useTranslation();
     const [isMobileView, setIsMobileView] = useState<boolean>(false);
     const [data, setData]=useState()
+    const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
+    const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+    const [key, setKey] = useState(100);
+  const reloadActive = () => {
+    setKey(prevKey => prevKey + 1);
+  };
+    function editClicked(id:string) {
+        console.log(id)
+        setSelectedItemId(id);
+      }
+      function openModal() {
+        setIsModalOpen(true);
+      }
+      
+      function closeModal() {
+        setIsModalOpen(false);
+      }
     useEffect(()=>{
         axios.get('http://localhost:8000/Leads')
         .then(response => {
@@ -26,19 +44,9 @@ export default function DashTask() {
         return () => {window.removeEventListener('resize', handleResize);};}, 
     [])
   return (
-    <div className="dash_task_div">
-      <div
-      style={{
-        position:"sticky",
-        paddingTop:"5px",
-        top:"-20px",
-        left:"-10px",
-        width:"100%",
-        backgroundColor:"white",
-        zIndex:"2000000000"
-        }} className="trt">
+    <div className="dash_task_div" key={key}>
+      <div className="trt">
         <h1>{t("Leads.dashboard.task")}</h1>
-        <img src={Dot3} alt="" />
       </div>
       <div className="dash_task_table_header">
         <div>{t("Leads.dashboard.name")}</div>
@@ -61,7 +69,7 @@ export default function DashTask() {
                                     </div>
                                 </div>
 
-                                <div>
+                                <div onClick={el=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -83,11 +91,16 @@ export default function DashTask() {
                             <div>{e.name}</div>
                             <div>{e.taskName}</div>
                             <div>{e.due}</div>
-                            <div>
+                            <div onClick={el=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>
                     ))}
+                </div>
+            )}
+            {isModalOpen && (
+                <div className="formToTask3">
+                    <DashTaskEditModal id={selectedItemId} closeModal={closeModal} reloadActive={reloadActive} />
                 </div>
             )}
     </div>

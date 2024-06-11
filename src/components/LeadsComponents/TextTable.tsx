@@ -1,9 +1,23 @@
 import {useState,useEffect} from 'react'
 import Dot3 from "../ph/3dot.svg"
-//TextTable
-export default function TextTable({data}:any) {
-    const [isMobileView, setIsMobileView] = useState<boolean>(false);
+import CommunicationEditModal from './CommunicationEditModal';
 
+//TextTable
+export default function TextTable({data,reloadActive}:any) {
+    const [isMobileView, setIsMobileView] = useState<boolean>(false);
+    const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
+    const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+    function editClicked(id:string) {
+        console.log(id)
+        setSelectedItemId(id);
+      }
+      function openModal() {
+        setIsModalOpen(true);
+      }
+      
+      function closeModal() {
+        setIsModalOpen(false);
+      }
     useEffect(() => {
         const handleResize = () => {setIsMobileView(window.innerWidth < 800);};
         handleResize(); // Check initial width
@@ -24,7 +38,7 @@ export default function TextTable({data}:any) {
                                         <p>{e.type}</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div onClick={el=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -42,11 +56,16 @@ export default function TextTable({data}:any) {
                             <div>{e.contact}</div>
                             <div>{e.type}</div>
                             <div>{e.message}</div>
-                            <div>
+                            <div onClick={el=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>
                     ))}
+                </div>
+            )}
+            {isModalOpen && (
+                <div className="formToTask3">
+                    <CommunicationEditModal id={selectedItemId} closeModal={closeModal} reloadActive={reloadActive}/>
                 </div>
             )}
     </div>

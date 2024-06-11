@@ -12,6 +12,12 @@ export default function Commmunications() {
   const [data, setData] = useState();
   const [whichToShow, setWhichToShow] = useState("call");
   const [dataTSent, setDataTSent] = useState();
+
+  const [key, setKey] = useState(700);
+  const reloadActive = () => {
+    setKey(prevKey => prevKey + 1);
+  };
+
   useEffect(() => {
     axios
       .get("http://localhost:8000/Leads")
@@ -31,37 +37,31 @@ export default function Commmunications() {
 
   const renderComponent = () => {
     if (whichToShow === "call") {
-      return <CallTable data={dataTSent}/>;
+      return <CallTable data={dataTSent} reloadActive={reloadActive}/>;
     } else if (whichToShow === "text") {
-      return <TextTable data={dataTSent}/>;
+      return <TextTable data={dataTSent} reloadActive={reloadActive}/>;
     }else if (whichToShow === "email") {
-      return <EmailTable data={dataTSent}/>;
+      return <EmailTable data={dataTSent} reloadActive={reloadActive}/>;
     }
   };
   console.log(dataTSent);
   return (
-    <div className="communication_div" style={{position:"relative"}}>
+    <div className="communication_div" key={key}>
       <div
-      style={{
-        position:"sticky",
-        paddingTop:"5px",
-        top:"-20px",
-        left:"-10px",
-        width:"100%",
-        backgroundColor:"white",
-        zIndex:"2000000000"
-        }} className="trt">
+      // style={{
+      //   position:"sticky",
+      //   paddingTop:"5px",
+      //   top:"-20px",
+      //   left:"-10px",
+      //   width:"100%",
+      //   backgroundColor:"white",
+      //   zIndex:"2000000000"
+      //   }} 
+        className="trt">
         <h1>{t("Leads.dashboard.communications")}</h1>
-        <img src={Dot3} alt="" />
       </div>
       <div
-      style={{
-        position:"sticky",
-        paddingTop:"5px",
-        top:"12px",
-        width:"100%",
-        backgroundColor:"white"
-    }}>
+      >
       <div className="type_changer">
         <button
           onClick={() => handleButtonClick("call")}

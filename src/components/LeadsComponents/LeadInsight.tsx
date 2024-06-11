@@ -72,6 +72,7 @@ export default function LeadInsight() {
       animate={{ translateX: 0, opacity: 1 }}
       exit={{ translateX: -100, opacity: 0 }}
       transition={{ duration: 0.2 }}
+      style={{borderRadius:"30px"}}
     >
       <div className="conv">
         <div className="conv_left">
