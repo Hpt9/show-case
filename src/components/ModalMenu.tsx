@@ -10,6 +10,7 @@ import { setting_menu } from '../exportedArrays';
 import CloseIcon from '@mui/icons-material/Close';
 import AZE from "../components/ph/azerbaijan.png"
 import ENG from "../components/ph/united-kingdom.png"
+import { motion, AnimatePresence } from "framer-motion";
 
 const ModalMenu = ({ closeModal }: any) => {
   const [lang, setLang] = React.useState('');
@@ -18,7 +19,12 @@ const ModalMenu = ({ closeModal }: any) => {
   const { activeIndex, setActiveIndex } = useContext(isLoggedContext);
   const [isWideScreen, setIsWideScreen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
+    function close() {
+        setOpen(false);
+        setTimeout(() => { closeModal() }, 200);
+    }
   useEffect(() => {
     const handleResize = () => {
       setIsWideScreen(window.innerWidth >= 800);
@@ -33,7 +39,7 @@ const ModalMenu = ({ closeModal }: any) => {
     setActiveIndex(index);
     window.history.pushState(null, "", nav);
     window.dispatchEvent(new PopStateEvent("popstate"));
-    closeModal();
+    close()
   };
 
   const handleItemClick2 = (index: any) => {
@@ -50,13 +56,26 @@ const ModalMenu = ({ closeModal }: any) => {
     //window.location.reload();
   };
 
-  return (
+  return (      
     <div className="div_before_menu">
       {!isWideScreen && (
-        <div className="modal" key={"rndasldml1"}>
-          <div className="bckg_gray">
-            <div className="modal-content" key={"rndasldml2"}>
-              <img src={HM} alt="" className="hm-class" onClick={closeModal} key={"rndasldml3"} />
+        <motion.div className="modal" key={"rndasldml1"}>
+          <AnimatePresence mode="wait">
+          {open ?
+          <motion.div className="bckg_gray"
+          initial={{ opacity: 0 }}
+          animate={{opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+          >
+            <AnimatePresence mode="wait">
+            {open ?
+            <motion.div className="modal-content" key={"rndasldml2"}
+            initial={{ translateX: -100, opacity: 0 }}
+            animate={{ translateX: 0, opacity: 1 }}
+            exit={{ translateX: -100, opacity: 0 }}
+            transition={{ duration: 0.2 }}>
+              <img src={HM} alt="" className="hm-class" onClick={close} key={"rndasldml3"} />
               <div className="account2" key={"rndasldml19"}>
                 <p style={{ textAlign: "center", padding: 0 }} key={"rndasldml86789"}></p>
                 {obj.map((item, index) => (
@@ -86,9 +105,13 @@ const ModalMenu = ({ closeModal }: any) => {
                   <span>ENG</span>
                 </Button>
               </div>
-            </div>
-          </div>
-        </div>
+            </motion.div>
+            : null}
+            </AnimatePresence>
+          </motion.div>
+          : null}
+          </AnimatePresence>
+        </motion.div>
       )}
       {isModalOpen && (
         <div className="modal_moble_sett">

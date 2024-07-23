@@ -105,10 +105,11 @@ export default function Cases() {
                 id="demo-simple-select"
                 value={pArea}
                 onChange={handleChange}
+                
               >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={10}>PAreea1</MenuItem>
+                <MenuItem value={20}>PAreea2</MenuItem>
+                <MenuItem value={30}>PAreea3</MenuItem>
               </Select>
             </FormControl>
           </div>
@@ -121,9 +122,9 @@ export default function Cases() {
                 value={leadAttomey}
                 onChange={handleChange2}
               >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={10}>Test1</MenuItem>
+                <MenuItem value={20}>Test2</MenuItem>
+                <MenuItem value={30}>Test3</MenuItem>
               </Select>
             </FormControl>
           </div>
@@ -136,9 +137,9 @@ export default function Cases() {
                 value={caseStage}
                 onChange={handleChange3}
               >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={10}>Open</MenuItem>
+                <MenuItem value={20}>Closed</MenuItem>
+                <MenuItem value={30}>Progressing</MenuItem>
               </Select>
             </FormControl>
           </div>

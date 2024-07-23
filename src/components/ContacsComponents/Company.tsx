@@ -34,7 +34,7 @@ export default function Company() {
   };
   useEffect(() => {
     axios
-      .get("https://my-final-project-45l9.onrender.com/api/company")
+      .get("http://localhost:8000/Compny")
       .then(function (response) {
         setData(response.data);
         if(response.status===200){

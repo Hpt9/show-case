@@ -29,7 +29,7 @@ export default function OpenCase({ openCases,reloadActive }: any) {
   }
   return (
     <motion.div className="active_table"
-    initial={{ translateX: -100, opacity: 0 }}
+      initial={{ translateX: -100, opacity: 0 }}
       animate={{ translateX: 0, opacity: 1 }}
       exit={{ translateX: -100, opacity: 0 }}
       transition={{ duration: 0.2 }}

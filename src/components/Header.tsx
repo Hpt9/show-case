@@ -43,6 +43,7 @@ export default function AppHeader() {
             alt=""
             className="modal_opener"
             onClick={openModal}
+           // style={{}}
           />
         ) : (
           <motion.img
@@ -56,7 +57,11 @@ export default function AppHeader() {
           />
         )}
       </div>
-      {isModalOpen && <ModalMenu closeModal={closeModal}/>}
+      {isModalOpen && (
+        <div>
+          <ModalMenu closeModal={closeModal}/>
+        </div>
+      )}
     </AnimatePresence>
   );
 }
