@@ -63,7 +63,7 @@ export default function CloseCase({ closeCase,reloadActive }: any) {
                       <p>{item.phone}</p>
                     </div>
                   </div>
-                  <div onClick={e=>{editClicked(item.id);openModal()}}>
+                  <div onClick={()=>{editClicked(item.id);openModal()}}>
                     <img src={Dot3} alt="" />
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export default function CloseCase({ closeCase,reloadActive }: any) {
                   {item.nextTask.stg} {item.nextTask.date}
                 </div>
                 <div>{item.status}</div>
-                <div onClick={e=>{editClicked(item.id);openModal()}}>
+                <div onClick={()=>{editClicked(item.id);openModal()}}>
                   <img src={Dot3} alt="" />
                 </div>
               </div>

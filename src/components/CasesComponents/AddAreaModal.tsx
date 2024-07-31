@@ -1,7 +1,6 @@
 import { useState } from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslation } from "react-i18next";
 // import TextField from "@mui/material/TextField";
 // import InputLabel from "@mui/material/InputLabel";
 // import MenuItem from "@mui/material/MenuItem";
@@ -16,7 +15,6 @@ import { useTranslation } from "react-i18next";
 import {  useFormik } from "formik";
 import * as Yup from "yup";
 import Button from "@mui/material/Button";
-import axios from "axios";
 
 //const label = { inputProps: { "aria-label": "Switch demo" } };
 
