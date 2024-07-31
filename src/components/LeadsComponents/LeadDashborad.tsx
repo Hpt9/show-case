@@ -1,6 +1,5 @@
-import axios from 'axios';
-import React,{useState,useEffect} from 'react';
-import { useTranslation } from 'react-i18next';
+import {useState,useEffect} from 'react';
+//import { useTranslation } from 'react-i18next';
 import ESignnature from './ESignnature';
 import InTakeForms from './InTakeForms';
 import Commmunications from './Commmunications';
@@ -8,9 +7,10 @@ import DashTask from './DashTask';
 import { motion} from "framer-motion";
 
 export default function LeadDashboard() {
-  const {t} = useTranslation();
+  //const {t} = useTranslation();
   const [isMobileView, setIsMobileView] = useState<boolean>(false);
   useEffect(() => {
+    console.log(isMobileView)
     const handleResize = () => {setIsMobileView(window.innerWidth < 800);};
     handleResize();
     window.addEventListener('resize', handleResize);

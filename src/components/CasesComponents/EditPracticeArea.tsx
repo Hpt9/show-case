@@ -1,22 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import TextField from "@mui/material/TextField";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Switch from "@mui/material/Switch";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
-import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import Textarea from "@mui/joy/Textarea";
-import { Formik, useFormik } from "formik";
+import { useFormik } from "formik";
 import * as Yup from "yup";
 import Button from "@mui/material/Button";
 import axios from "axios";
-const label = { inputProps: { "aria-label": "Switch demo" } };
 
 const valiSchema = Yup.object().shape({
   photo: Yup.string().required("Required"),
@@ -44,13 +33,13 @@ const EditPracticeArea = ({ closeModal2,id,reloadActive }: any) => {
           console.log(error);
           // Handle error
         });
-    } else {console.log("cart");}
+    } else {console.log(id);}
   }
 
   const formik = useFormik({
     initialValues: {photo: "",name: "",city: "",activeCases: "",createdBy: ""},
     validationSchema: valiSchema,
-    onSubmit: (values) => {
+    onSubmit: () => {
       //console.log(JSON.stringify(values, null, 2));
     },
   });
@@ -84,6 +73,7 @@ const EditPracticeArea = ({ closeModal2,id,reloadActive }: any) => {
             <Button variant="outlined" onClick={close}>{t(`Cases.b1`)}</Button>
             <Button variant="contained" type="submit" onClick={() => {
                 console.log(formik.values)
+                sendData()
                 close()
                 setTimeout(()=>reloadActive(),500)
                 }}>{t(`Cases.b2`)}</Button>

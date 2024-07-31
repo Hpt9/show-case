@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { obj } from "../exportedArrays";
 import { isLoggedContext } from '../App';
 import HM from "../assets/photos/hamburgerMenu.svg";
 import "../scss/Header.scss";
 import { useTranslation } from "react-i18next";
-import { SelectChangeEvent } from '@mui/material/Select';
 import { Button } from "@mui/material";
 import { setting_menu } from '../exportedArrays';
 import CloseIcon from '@mui/icons-material/Close';
@@ -13,7 +12,7 @@ import ENG from "../components/ph/united-kingdom.png"
 import { motion, AnimatePresence } from "framer-motion";
 
 const ModalMenu = ({ closeModal }: any) => {
-  const [lang, setLang] = React.useState('');
+  //const [lang, setLang] = React.useState('');
   const { t } = useTranslation();
   const { i18n } = useTranslation();
   const { activeIndex, setActiveIndex } = useContext(isLoggedContext);
@@ -47,15 +46,14 @@ const ModalMenu = ({ closeModal }: any) => {
     setIsModalOpen(true);    
   };
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setLang(event.target.value as string);
-  };
+  // const handleChange = (event: SelectChangeEvent) => {
+  //   setLang(event.target.value as string);
+  // };
 
   const handleClick = (elang: string) => {
     i18n.changeLanguage(elang);
     //window.location.reload();
   };
-
   return (      
     <div className="div_before_menu">
       {!isWideScreen && (

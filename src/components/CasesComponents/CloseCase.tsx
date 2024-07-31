@@ -1,6 +1,6 @@
 import Dot from "../ph/Dot.svg";
 import Dot3 from "../ph/3dot.svg";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { motion} from "framer-motion";
 import EditCloseCaseModal from "./EditOpenCaseModal";

@@ -1,9 +1,8 @@
-import React,{useState,useEffect} from 'react'
+import {useState,useEffect} from 'react'
 import axios from "axios";
 import Dot from "../ph/Dot.svg";
 import Dot3 from "../ph/3dot.svg";
 import { useTranslation } from "react-i18next";
-import { Button } from "@mui/material";
 import AddAreaModal from './AddAreaModal';
 import EditPracticeArea from './EditPracticeArea';
 
@@ -11,9 +10,8 @@ export default function PracticeAreas() {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isModal2Open, setIsModal2Open] = useState(false);
-  const [whichToShow, setWhichToShow] = useState("active");
   const [data, setData] = useState();
-  const openModal = () => {setIsModalOpen(true);};
+  //const openModal = () => {setIsModalOpen(true);};
   const closeModal = () => {setIsModalOpen(false);};
   const openModal2 = () => {setIsModal2Open(true);};
   const closeModal2 = () => {setIsModal2Open(false);};
@@ -75,7 +73,7 @@ export default function PracticeAreas() {
                 </div>
               </div>
               <div>
-                <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal2()}}/>
+                <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal2()}}/>
               </div>
             </div>
             <div className='mu_info'>
@@ -109,7 +107,7 @@ export default function PracticeAreas() {
             </div>
             <div>{item.activeCase}</div>
             <div>{item.createdBy}</div>
-            <div onClick={e=>{editClicked(item.id);openModal2()}}><img src={Dot3} alt=""/></div>
+            <div onClick={()=>{editClicked(item.id);openModal2()}}><img src={Dot3} alt=""/></div>
           </div>
         ))}
       </div>

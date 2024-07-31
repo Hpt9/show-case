@@ -37,6 +37,7 @@ export default function Cases() {
     };
     handleResize(); // Check initial width
     window.addEventListener("resize", handleResize);
+    console.log(isMobileView)
     return () => {
       window.removeEventListener("resize", handleResize);
     };

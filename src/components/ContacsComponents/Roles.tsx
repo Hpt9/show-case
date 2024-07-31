@@ -115,7 +115,7 @@ export default function Roles() {
                       </div>
                     </div>
                     <div>
-                      <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal2()}}/>
+                      <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal2()}}/>
                     </div>
                   </div>
                   <div className="mu_info">
@@ -167,7 +167,7 @@ export default function Roles() {
                     <p>{item.gmail}</p>
                   </div>
                   <div>
-                    <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal2()}}/>
+                    <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal2()}}/>
                   </div>
                 </div>
               ))}

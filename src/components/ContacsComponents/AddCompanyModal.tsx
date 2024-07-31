@@ -25,7 +25,7 @@ const AddCompanyModal = ({ closeModal }: any) => {
     const formik = useFormik({
         initialValues: { companyName: '', email: '', website: '', phoneNumber: '', faxNumber: '', address: '',city: '', description: '',ppImgBase64: 'aaaaaaa',caseId: '1'},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit:() => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });

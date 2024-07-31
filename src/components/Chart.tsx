@@ -9,7 +9,6 @@ import {
 } from "recharts";
 import "../scss/ChartCalendar.scss";
 import { useTranslation } from "react-i18next";
-import axios from "axios";
 export default function Chart() {
   const { t } = useTranslation();
   const now = new Date();

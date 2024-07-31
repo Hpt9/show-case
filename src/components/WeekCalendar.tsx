@@ -48,6 +48,7 @@ const WeekCalendar: React.FC = () => {
 
   const closeToast = React.useCallback(() => {
     setToastOpen(false);
+    console.log(setResp)
   }, []);
 
   const getCategory = (id: number) => {

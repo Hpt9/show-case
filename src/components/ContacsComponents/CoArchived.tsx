@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Dot from "../ph/Dot.svg";
 import Dot3 from "../ph/3dot.svg";
 import Pagination from "@mui/material/Pagination";

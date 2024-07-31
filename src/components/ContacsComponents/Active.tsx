@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import {useState,useEffect} from 'react';
 import Dot from "../ph/Dot.svg"
 import Dot3 from "../ph/3dot.svg"
 import Pagination from '@mui/material/Pagination';
@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useTranslation } from 'react-i18next';
-import { motion,AnimatePresence} from "framer-motion";
+import { motion} from "framer-motion";
 import EditeMenuModal from './EditeMenuModal';
 
 const Active = ({ activeData,reloadActive }:any) => {
@@ -69,7 +69,7 @@ const Active = ({ activeData,reloadActive }:any) => {
                   </div>
                 </div>
                 <div>
-                  <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal()}}/>
+                  <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal()}}/>
                 </div>
               </div>
               <div className='mu_info'>
@@ -120,7 +120,7 @@ const Active = ({ activeData,reloadActive }:any) => {
               <div>{item.peopleGroup}</div>
               <div>12-12-2022</div>
               <div>Ferid</div>
-              <div><img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal()}}/></div>
+              <div><img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal()}}/></div>
             </div>
           ))}
         </motion.div>

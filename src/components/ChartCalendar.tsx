@@ -1,4 +1,3 @@
-import React from 'react'
 import "../scss/ChartCalendar.scss"
 import Chart from './Chart'
 import Calendar from './Calendar'

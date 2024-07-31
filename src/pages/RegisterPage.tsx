@@ -1,11 +1,9 @@
 import "../scss/RegisterPage.scss"
-import { useState } from "react";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { Button, TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { MuiTelInput } from 'mui-tel-input'
-import axios, {Axios} from "axios"
+import axios from "axios"
 const MAXIMUM_PASSWORD_LENGTH = 30;
 const MINIMUM_PASSWORD_LENGTH = 8;
 interface ILoginValues {firstName: string;lastName: string;email: string;password: string;username:string}
@@ -22,11 +20,6 @@ const loginValidationSchema = () => {
   });
 };
 export default function RegisterPage() {
-  const [value, setValue] = useState('')
-  const handleChange = (newValue:string) => {
-    setValue(newValue)
-    //RegFormikForm.values.phoneNum=newValue
-  }
   async function postData(obj:object) {
     //console.log(obj)
     axios.post('http://192.168.99.159:8080/api/v1/auth/register', obj)

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import dayjs, { Dayjs } from 'dayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
@@ -11,16 +11,14 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import Checkbox from '@mui/material/Checkbox';
 import InputAdornment from '@mui/material/InputAdornment';
 import DeleteIcon from '@mui/icons-material/Delete';
-import Switch from '@mui/material/Switch';
 import Button from '@mui/material/Button';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Textarea from '@mui/joy/Textarea';
 import { motion, AnimatePresence } from "framer-motion";
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 
-const label = { inputProps: { 'aria-label': 'Switch demo' } };
+// const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 const valiSchema = Yup.object().shape({
     name: Yup.string().min(2, 'Too Short!').max(50, 'Too Long!').required('Required'),
@@ -141,7 +139,7 @@ const AddTaskModal = ({ closeModal }: any) => {
                             </LocalizationProvider>
                         </div>
                     </div>
-                    {/* <FormControlLabel control={<Checkbox defaultChecked />} onChange={() => setIsLinked(prev => !prev)} label="This task is not linked to a case or lead" /> */}
+                    <FormControlLabel control={<Checkbox defaultChecked />} onChange={() => setIsLinked(prev => !prev)} label="This task is not linked to a case or lead" />
                     <div className="caseOrLead">
                         <label htmlFor="">{t("Task.modal.s1")}</label>
                         <Select id="caseId" value={caseId}

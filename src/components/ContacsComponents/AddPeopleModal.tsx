@@ -29,7 +29,7 @@ const AddPeopleModal = ({ closeModal,reloadActive }: any) => {
     const formik = useFormik({
         initialValues: { ppImgBase64: `${imgs}`, fname: '', lname: '', peopleGroup: '', email: '', phoneNumber: '', address: '', city: '', country: ''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });

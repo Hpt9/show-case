@@ -62,7 +62,7 @@ const EditeMenuModal = ({ closeModal,id,reloadActive }: any) => {
     const formik = useFormik({
         initialValues: {ppImgBase64: "",fname: "",lname: "",peopleGroup: "",email: "",phoneNumber: "506564794",address: "",city: "",country: "", isArchived:false},
         validationSchema: valiSchema,
-        onSubmit: values => {},
+        onSubmit: () => {},
     });
     function sendData() {
         if (Object.values(formik.values).every(value => value !== "" && value !== null && value !== undefined)) {

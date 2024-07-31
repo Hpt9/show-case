@@ -1,15 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import "../scss/SideMenu.scss";
 import { obj } from "../exportedArrays";
 import Button from '@mui/material/Button';
 import { motion, AnimatePresence } from "framer-motion";
-import { duration } from "@mui/material";
 import { isLoggedContext } from '../App';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
 import { useTranslation } from "react-i18next";
 import Modal from '../components/SettingsModal';
 import AZE from "../components/ph/azerbaijan.png"
@@ -18,8 +12,7 @@ import ENG from "../components/ph/united-kingdom.png"
 export default function SideMenu() {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
-  const [lang, setLang] = React.useState('');
-  const { activeIndex, language, setLanguage, setActiveIndex } = useContext(isLoggedContext);
+  const { activeIndex,setActiveIndex } = useContext(isLoggedContext);
   const storedIndex = sessionStorage.getItem('activeIndex');
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isVisible, setIsVisible] = useState(true);
@@ -30,6 +23,7 @@ export default function SideMenu() {
     if (storedIndex) { setActiveIndex(parseInt(storedIndex)); }
     const handleResize = () => setWindowWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
+    console.log(setPosX,setPosY)
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -42,19 +36,11 @@ export default function SideMenu() {
     visible: { translateX: 0 }
   };
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setLang(event.target.value as string);
-  };
 
   const handleClick = (elang: string) => {
     i18n.changeLanguage(elang);
     // window.location.reload();
   }
-
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  }
-
   const handleCloseModal = () => {
     setIsModalOpen(false);
   }

@@ -1,5 +1,4 @@
-import React from "react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import { useTranslation } from 'react-i18next';
 
 const data = [
@@ -28,6 +27,7 @@ export default function CasePieChart() {
             {data.map((entry, index) => (
               <Cell
                 key={`cell-${index}`}
+                className={`${entry}`}
                 fill={COLORS[index % COLORS.length]}
               />
             ))}

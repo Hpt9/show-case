@@ -1,4 +1,4 @@
-import { useContext, useEffect, Suspense } from "react";
+import { useContext, useEffect } from "react";
 import { isLoggedContext, IsLoggedContextProps } from "../App";
 import { useNavigate,useLocation} from "react-router-dom"; 
 import "../scss/Home.scss";
@@ -13,7 +13,7 @@ export default function Home() {
   // const {t} = useTranslation();
   const location = useLocation()
   //console.log('handle route change here', location)
-  const { isLogged, setIsLogged, showMenu,setShowMenu } = useContext<IsLoggedContextProps>(
+  const { isLogged, setShowMenu } = useContext<IsLoggedContextProps>(
     isLoggedContext
   );
   const navigate = useNavigate();

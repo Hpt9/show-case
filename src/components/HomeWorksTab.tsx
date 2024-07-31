@@ -1,4 +1,3 @@
-import React from 'react'
 import "../scss/HomeWorksTab.scss"
 import Button from '@mui/material/Button';
 import Demo from "../assets/photos/demo.svg"

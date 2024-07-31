@@ -14,7 +14,6 @@ import * as Yup from 'yup';
 import Button from '@mui/material/Button';
 import axios from "axios";
 
-const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 const valiSchema = Yup.object().shape({
     caseName: Yup.string().required("Required"),
@@ -54,14 +53,14 @@ const EditCloseCaseModal = ({ closeModal,id,reloadActive }: any) => {
                     // Handle error
                 });
         } else {
-            console.log("cart");
+            console.log(id);
         }
     }
 
     const formik = useFormik({
         initialValues: { caseName: '',phone: '', practiceArea: '',caseNumber:'',office:'',openedDate:'',statuteOfLimitations:'',caseStage:'',description:''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });  
@@ -218,6 +217,7 @@ const EditCloseCaseModal = ({ closeModal,id,reloadActive }: any) => {
                         <Button variant="outlined" onClick={close}>{t("Cases.modal.sc")}</Button>
                         <Button variant="contained" type="submit" onClick={()=>{
                           console.log(formik.values)
+                          sendData()
                           close()
                           setTimeout(()=>reloadActive(),500)
                           }}>{t("Cases.modal.saveEdit")}</Button> {/* Ensure type="submit" */}

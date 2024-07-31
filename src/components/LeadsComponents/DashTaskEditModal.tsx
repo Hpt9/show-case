@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import { motion, AnimatePresence } from "framer-motion";
 import TextField from '@mui/material/TextField';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Button from '@mui/material/Button';
@@ -16,14 +15,14 @@ const valiSchema = Yup.object().shape({
     status: Yup.string().required("Required")
 });
 const DashTaskEditModal = ({ closeModal,id,reloadActive }: any) => {
-    const [data, setData] = useState<any>();
+    const [data, setData] = useState<any>(id);
     const [isLoading, setIsLoading] = useState(true);
     const {t} = useTranslation();
     useEffect(() => {
         axios
           .get(`http://localhost:8000/Leads`)
           .then(function (response) {
-            console.log(response.data)
+            console.log(response.data,data)
             setData(response.data);
             if(response.status===200){setIsLoading(false);}
           })
@@ -32,7 +31,7 @@ const DashTaskEditModal = ({ closeModal,id,reloadActive }: any) => {
     const formik = useFormik({
         initialValues: {name: "",phone: "",status: ""},
         validationSchema: valiSchema,
-        onSubmit: values => {},
+        onSubmit: () => {},
     });
     function sendData() {
       console.log("Edited Data is Sent")

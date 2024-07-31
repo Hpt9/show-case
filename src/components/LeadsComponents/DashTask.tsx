@@ -69,7 +69,7 @@ export default function DashTask() {
                                     </div>
                                 </div>
 
-                                <div onClick={el=>{editClicked(e.id);openModal()}}>
+                                <div onClick={()=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ export default function DashTask() {
                             <div>{e.name}</div>
                             <div>{e.taskName}</div>
                             <div>{e.due}</div>
-                            <div onClick={el=>{editClicked(e.id);openModal()}}>
+                            <div onClick={()=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>

@@ -29,7 +29,7 @@ export default function All({data,reloadActive}:any) {
                                     <p>{e.name}</p>
                                     <p>{e.phone}</p>
                                 </div>
-                                <div onClick={el=>{editClicked(e.id);openModal()}}>
+                                <div onClick={()=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ export default function All({data,reloadActive}:any) {
                                     {e.status}
                                 </span>
                             </div>
-                            <div onClick={el=>{editClicked(e.id);openModal()}}>
+                            <div onClick={()=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import CasePieChart from "./CasePieChart";
 import CaseBarChart from "./CaseBarChart";
 export default function CaseCharts() {

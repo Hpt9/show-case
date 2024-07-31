@@ -1,4 +1,3 @@
-import React from 'react'
 import LinearProgress from '@mui/material/LinearProgress';
 import { useTranslation } from 'react-i18next';
 export default function LastEvents() {

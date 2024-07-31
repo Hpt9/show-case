@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
 import LinearProgress from "@mui/material/LinearProgress";
 import { useTranslation } from "react-i18next";
 

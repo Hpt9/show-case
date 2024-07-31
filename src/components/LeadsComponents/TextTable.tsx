@@ -38,7 +38,7 @@ export default function TextTable({data,reloadActive}:any) {
                                         <p>{e.type}</p>
                                     </div>
                                 </div>
-                                <div onClick={el=>{editClicked(e.id);openModal()}}>
+                                <div onClick={()=>{editClicked(e.id);openModal()}}>
                                     <img src={Dot3} alt="" />
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ export default function TextTable({data,reloadActive}:any) {
                             <div>{e.contact}</div>
                             <div>{e.type}</div>
                             <div>{e.message}</div>
-                            <div onClick={el=>{editClicked(e.id);openModal()}}>
+                            <div onClick={()=>{editClicked(e.id);openModal()}}>
                                 <img src={Dot3} alt="" />
                             </div>
                         </div>

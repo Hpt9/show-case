@@ -16,8 +16,9 @@ const RoleEditMenu = ({ closeModal2,id,reloadActive }: any) => {
     const formik = useFormik({
         initialValues: { roleName: ''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
+            console.log(id)
         },
     });  
     const [open, setOpen] = useState(true);

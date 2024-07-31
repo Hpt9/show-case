@@ -85,7 +85,7 @@ export default function Archived({ archivedData,reloadActive }: any) {
                     </div>
                   </div>
                   <div>
-                    <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal()}}/>
+                    <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal()}}/>
                   </div>
                 </div>
                 <div className="mu_info">
@@ -134,7 +134,7 @@ export default function Archived({ archivedData,reloadActive }: any) {
               <div>12-12-2022</div>
               <div>Ferid</div>
                 <div>
-                  <img src={Dot3} alt="" onClick={e=>{editClicked(item.id);openModal()}}/>
+                  <img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal()}}/>
                 </div>
               </div>
             ))}

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Dot3 from "../ph/3dot.svg";
 import Dot from "../ph/Dot.svg"
 import CallTable from "./CallTable";
 import TextTable from "./TextTable";

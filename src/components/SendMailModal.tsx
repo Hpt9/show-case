@@ -3,13 +3,11 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import { motion, AnimatePresence } from "framer-motion";
 import TextField from '@mui/material/TextField';
 import { useTranslation } from "react-i18next";
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Switch from '@mui/material/Switch';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import Textarea from '@mui/joy/Textarea';
-import { Formik, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Button from '@mui/material/Button';
 import axios from "axios";
@@ -28,7 +26,7 @@ const SendMailModal = ({ closeModal }: any) => {
     const formik = useFormik({
         initialValues: { emailHeader: '', subject: '', content: '', toWho: ''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });
@@ -39,7 +37,7 @@ const SendMailModal = ({ closeModal }: any) => {
 
     useEffect(()=>{
         axios.get("http://localhost:8000/zones")
-         .then(function (response) {
+         .then(function () {
             
          })
          .catch(function (error) {

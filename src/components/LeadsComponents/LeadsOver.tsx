@@ -1,4 +1,3 @@
-import React from "react";
 import CircularProgress from "@mui/joy/CircularProgress";
 import { useTranslation } from "react-i18next";
 

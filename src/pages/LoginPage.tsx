@@ -1,6 +1,5 @@
 import { useNavigate,useLocation } from "react-router-dom";
 import "../scss/LoginPage.scss";
-import Checkbox from "@mui/material/Checkbox";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import * as Yup from "yup";
@@ -9,7 +8,6 @@ import { useContext, useEffect } from "react";
 import { isLoggedContext, IsLoggedContextProps } from "../App";
 import axios from "axios";
 
-const label = { inputProps: { "aria-label": "Checkbox demo" } };
 const MAXIMUM_PASSWORD_LENGTH = 30;
 const MINIMUM_PASSWORD_LENGTH = 8;
 interface ILoginValues {
@@ -27,7 +25,7 @@ const loginValidationSchema = () => {
 };
 export default function LoginPage() {
   const location = useLocation()
-  const { isLogged,showMenu,setShowMenu, setIsLogged } = useContext<IsLoggedContextProps>(isLoggedContext);
+  const { showMenu,setShowMenu, setIsLogged } = useContext<IsLoggedContextProps>(isLoggedContext);
     useEffect(()=>{
       console.log('handle route change here', location)
       location.pathname==="/login"?setShowMenu(false):setShowMenu(true)

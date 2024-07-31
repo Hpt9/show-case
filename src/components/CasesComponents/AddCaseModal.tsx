@@ -14,7 +14,7 @@ import * as Yup from 'yup';
 import Button from '@mui/material/Button';
 import axios from "axios";
 
-const label = { inputProps: { 'aria-label': 'Switch demo' } };
+//const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 const valiSchema = Yup.object().shape({
     caseName: Yup.string().required("Required"),
@@ -29,39 +29,39 @@ const valiSchema = Yup.object().shape({
 });
 const AddCaseModal = ({ closeModal }: any) => {
     const {t} = useTranslation();
-    function sendData() {
-        if (Object.values(formik.values).every(value => value !== "" && value !== null && value !== undefined)) {
-            console.log("sending started");
-            const finalData = {
-                name: formik.values.caseName,
-                phoneNumber: formik.values.phone,
-                caseNumber: formik.values.caseNumber,
-                description: formik.values.description,
-                dueDate: formik.values.openedDate,
-                //office: formik.values.office,
-                office: "HEAD_OFFICE",
-                //practiceAreaId: '',
-                base64: "aaaaaaaa"
-            };
-            console.log(finalData);
-            axios.post('https://my-final-project-45l9.onrender.com/api/case', finalData)
-                .then(function (response) {
-                    console.log(response.data);
-                    close()
-                })
-                .catch(function (error) {
-                    console.log(error);
-                    // Handle error
-                });
-        } else {
-            console.log("cart");
-        }
-    }
+    // function sendData() {
+    //     if (Object.values(formik.values).every(value => value !== "" && value !== null && value !== undefined)) {
+    //         console.log("sending started");
+    //         const finalData = {
+    //             name: formik.values.caseName,
+    //             phoneNumber: formik.values.phone,
+    //             caseNumber: formik.values.caseNumber,
+    //             description: formik.values.description,
+    //             dueDate: formik.values.openedDate,
+    //             //office: formik.values.office,
+    //             office: "HEAD_OFFICE",
+    //             //practiceAreaId: '',
+    //             base64: "aaaaaaaa"
+    //         };
+    //         console.log(finalData);
+    //         axios.post('https://my-final-project-45l9.onrender.com/api/case', finalData)
+    //             .then(function (response) {
+    //                 console.log(response.data);
+    //                 close()
+    //             })
+    //             .catch(function (error) {
+    //                 console.log(error);
+    //                 // Handle error
+    //             });
+    //     } else {
+    //         console.log("cart");
+    //     }
+    // }
 
     const formik = useFormik({
         initialValues: { caseName: '',phone: '', practiceArea: '',caseNumber:'',office:'',openedDate:'',statuteOfLimitations:'',caseStage:'',description:''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });  

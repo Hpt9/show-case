@@ -16,7 +16,7 @@ const AddRoleModal = ({ closeModal }: any) => {
     const formik = useFormik({
         initialValues: { roleName: ''},
         validationSchema: valiSchema,
-        onSubmit: values => {
+        onSubmit: () => {
             //console.log(JSON.stringify(values, null, 2));
         },
     });  

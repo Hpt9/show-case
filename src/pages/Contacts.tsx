@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../scss/Contacts.scss";
 import { useTranslation } from "react-i18next";
 import People from "../components/ContacsComponents/People";

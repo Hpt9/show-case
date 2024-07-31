@@ -61,6 +61,7 @@ export default function Today() {
       setStatus("Confirmed");
       setButtonText("Cancel appointment");
       setButtonType("warning");
+      console.log(closeOnOverlay)
     } else {
       setStatus("Canceled");
       setButtonText("Confirm appointment");
@@ -85,6 +86,7 @@ export default function Today() {
   const onEventHoverIn = useCallback(
     (args: any, closeOption: any) => {
       openTooltip(args, false);
+      console.log(closeOption)
     },
     [openTooltip]
   );

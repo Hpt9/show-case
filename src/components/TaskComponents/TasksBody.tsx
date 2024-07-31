@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import { useState,useEffect } from 'react';
 import InQueue from './InQueue';
 import InProgress from './InProgress';
 import NeedRevision from './NeedRevision';

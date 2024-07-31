@@ -6,7 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import Comment from "../ph/comment.svg"
 import Message from "../ph/message.svg"
-import { motion,AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({

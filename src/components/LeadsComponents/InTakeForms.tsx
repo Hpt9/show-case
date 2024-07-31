@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import CircularProgress from "@mui/joy/CircularProgress";
 import Dot from "../ph/Dot.svg";
