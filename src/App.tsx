@@ -4,11 +4,9 @@ import "./App.css";
 import LoginPage from "./pages/LoginPage";
 import {
   createBrowserRouter,
-  Navigate,
   RouterProvider
 } from "react-router-dom";
 import RegisterPage from "./pages/RegisterPage";
-import Header from "./components/Header";
 import Home from "./pages/Home";
 import Calendar from "./pages/Calendar";
 import Task from "./pages/Task";
@@ -19,7 +17,6 @@ import Leads from "./pages/Leads";
 import React, { useState, createContext } from "react";
 import SideMenu from "./components/SideMenu";
 import AppHeader from './components/Header';
-import { number } from 'yup';
 
 export interface IsLoggedContextProps {
   isLogged: boolean;

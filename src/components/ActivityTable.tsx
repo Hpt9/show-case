@@ -1,27 +1,26 @@
-import React, { useState, useEffect,useContext } from 'react';
+import { useState, useEffect } from 'react';
 import Dot from '../assets/photos/Dot.svg';
 import DotMenu from '../assets/photos/Group.svg';
 import { user } from '../exportedArrays';
 import { motion } from 'framer-motion';
 import '../scss/ActivityTable.scss';
-import Pagination from '@mui/material/Pagination';
-import Stack from '@mui/material/Stack';
+// import Pagination from '@mui/material/Pagination';
+// import Stack from '@mui/material/Stack';
 import { useTranslation } from 'react-i18next';
-import { isLoggedContext } from '../App';
+// import { isLoggedContext } from '../App';
 
 
 export default function ActivityTable() {
   const {t} = useTranslation();
   const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
   const [divToShow, setDivToShow] = useState<JSX.Element[]>([]);
-  const [page, setPage] = React.useState(1);
+  //const [page, setPage] = React.useState(1);
 
-  const { language } = useContext(isLoggedContext);
   //console.log(language)
 
-  const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
-    setPage(value);
-  };
+  // const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+  //   setPage(value);
+  // };
 
   const divs1: JSX.Element[] = user.map((u, i) => {
     return (
@@ -127,9 +126,9 @@ export default function ActivityTable() {
         </div>
       </div>
       <div className="pagination">
-        <Stack spacing={2}>
+        {/* <Stack spacing={2}>
           <Pagination count={5} page={page} onChange={handleChange} />
-        </Stack>
+        </Stack> */}
       </div>
     </div>
   );
