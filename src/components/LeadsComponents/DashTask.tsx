@@ -27,9 +27,9 @@ export default function DashTask() {
         setIsModalOpen(false);
       }
     useEffect(()=>{
-        axios.get('http://localhost:8000/Leads')
+        axios.get('https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86')
         .then(response => {
-            setData(response.data.task)
+            setData(response.data.Leads.task)
         })
         .catch(error => {
             console.error(error);

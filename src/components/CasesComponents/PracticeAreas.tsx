@@ -24,9 +24,10 @@ export default function PracticeAreas() {
   const reloadActive = () => {setKey(prevKey => prevKey + 1);};
     useEffect(() => {
         axios
-          .get("http://localhost:8000/Practice_Areas")
+          .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
           .then((response) => {
-            setData(response.data);
+            //console.log(response.data.Practice_Areas)
+            setData(response.data.Practice_Areas);
           })
           .catch((error) => {
             console.error(error);

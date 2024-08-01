@@ -20,10 +20,11 @@ export default function Conversion() {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8000/Leads")
+            .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
             .then((response) => {
-                setData(response.data.conversions);
-                const indicesArray = Array.from({ length: response.data.conversions.length }, () => getRandomColorIndex());
+                console.log(response.data.Leads.conversions);
+                setData(response.data.Leads.conversions);
+                const indicesArray = Array.from({ length: response.data.Leads.conversions.length }, () => getRandomColorIndex());
                 setColorIndices(indicesArray);
             })
             .catch((error) => {

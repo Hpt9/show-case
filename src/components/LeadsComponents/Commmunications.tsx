@@ -19,10 +19,10 @@ export default function Commmunications() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/Leads")
+      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
       .then((response) => {
-        setData(response.data.communications);
-        setDataTSent(response.data.communications.filter((item:any) => item.type.toLowerCase() === "call"));
+        setData(response.data.Leads.communications);
+        setDataTSent(response.data.Leads.communications.filter((item:any) => item.type.toLowerCase() === "call"));
       })
       .catch((error) => {
         console.error(error);
@@ -43,7 +43,6 @@ export default function Commmunications() {
       return <EmailTable data={dataTSent} reloadActive={reloadActive}/>;
     }
   };
-  console.log(dataTSent);
   return (
     <div className="communication_div" key={key}>
       <div

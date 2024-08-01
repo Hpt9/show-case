@@ -20,10 +20,10 @@ const ESigEditModal = ({ closeModal,id,reloadActive }: any) => {
     const {t} = useTranslation();
     useEffect(() => {
         axios
-          .get(`http://localhost:8000/Leads`)
+          .get(`https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86`)
           .then(function (response) {
             console.log(response.data,data)
-            setData(response.data);
+            setData(response.data.Leads);
             if(response.status===200){setIsLoading(false);}
           })
           .catch(function (error) {console.log(error)})
