@@ -34,9 +34,9 @@ export default function Company() {
   };
   useEffect(() => {
     axios
-      .get("http://localhost:8000/Compny")
+      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
       .then(function (response) {
-        setData(response.data);
+        setData(response.data.Compny);
         if(response.status===200){
      setIsLoading(false);
         }

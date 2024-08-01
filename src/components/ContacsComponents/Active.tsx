@@ -57,7 +57,7 @@ const Active = ({ activeData,reloadActive }:any) => {
         exit={{ translateX: -100, opacity: 0 }}
         transition={{ duration: 0.2 }}
         >
-          {activeData && activeData.map((item: any, index: number) => (
+          {activeData.map((item: any, index: number) => (
             <div key={index+"polikn"} className='mobile_user'>
               <div className="mu_header">
                 <div>
@@ -95,6 +95,7 @@ const Active = ({ activeData,reloadActive }:any) => {
                 </div>
               </div>
             </div>
+            
           ))}
           
           </motion.div>
@@ -105,19 +106,19 @@ const Active = ({ activeData,reloadActive }:any) => {
       exit={{ translateX: -100, opacity: 0 }}
       transition={{ duration: 0.2 }}
         >
-          {activeData && activeData.map((item: any, index: number) => (
+          {activeData.map((item: any, index: number) => (
             <div className='pc_user' key={index+"abhjui"}>
               <div>
-                <img src={item.image.base64} />
+                <img src={"#"} />
               </div>
               <div className='p_n'>
                 <div className='user_p_n'>
-                  <p>{item.firstName}</p>
+                  <p>{item.name}</p>
                   <p>0506567494</p>
                 </div>
               </div>
               <div>Example</div>
-              <div>{item.peopleGroup}</div>
+              <div>{item.group}</div>
               <div>12-12-2022</div>
               <div>Ferid</div>
               <div><img src={Dot3} alt="" onClick={()=>{editClicked(item.id);openModal()}}/></div>

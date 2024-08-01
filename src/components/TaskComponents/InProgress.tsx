@@ -8,7 +8,8 @@ import Comment from "../ph/comment.svg"
 import Message from "../ph/message.svg"
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-
+import LOADING from "../ph/loadingAni.gif"
+import { useState,useEffect } from "react";
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
   borderRadius: 5,
@@ -24,7 +25,18 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 export default function InProgress({ data }: any) {
   const {t} = useTranslation();
-
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    if(data){
+      if(data){
+        setTimeout(()=>setIsLoading(false),200)
+      }
+    }
+  }, [data]);
+  if (isLoading) {
+    return <div style={{width:"100%",display:"flex",justifyContent:"center"}}><img src={LOADING} alt="Loading" /></div>;
+  }
+  
     return (
         <div className="InQueueDiv">
           {data &&

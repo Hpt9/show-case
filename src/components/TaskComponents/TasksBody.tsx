@@ -7,27 +7,28 @@ import { useTranslation } from "react-i18next";
 
 export default function TasksBody() {
   const {t} = useTranslation();
-
   const [activeTab, setActiveTab] = useState('InQueue');
-  const [link, setLink] = useState('http://localhost:8000/InQueue')
   const [activeIndex,setActiveIndex] = useState(1)
   const [data,setData] = useState()
-//   const handleTabClick = (tab:any) => {
-//     setActiveTab(tab);
-//   };
   const handleTabClick = (tab:any,ind:number) => {
+    //console.log(tab)
     setActiveTab(tab);
-    setLink(`http://localhost:8000/${tab}`)
+    fetch("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
+    .then((res) => res.json())
+    .then((data) => {
+        //console.log(data[tab])
+        setData(data[tab])
+    });
     setActiveIndex(ind)
   };
   useEffect(() => {
-    fetch(link)
+    fetch("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
     .then((res) => res.json())
     .then((data) => {
-        console.log(data)
-        setData(data)
+        console.log(data[activeTab])
+        setData(data[activeTab])
     });
-    }, [link]);
+    }, []);
     
   return (
     <div className='taskBody'>

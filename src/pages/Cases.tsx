@@ -44,9 +44,9 @@ export default function Cases() {
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:8000/Cases")
+      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
       .then((response) => {
-        setData(response.data);
+        setData(response.data.Cases);
       })
       .catch((error) => {
         console.error(error);

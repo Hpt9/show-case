@@ -6,9 +6,10 @@ import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import Comment from "../ph/comment.svg"
 import Message from "../ph/message.svg"
-import { motion } from "framer-motion";
+import { motion,AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
-
+import { useState,useEffect } from "react";
+import LOADING from "../ph/loadingAni.gif"
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
   borderRadius: 5,
@@ -24,14 +25,24 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 export default function InQueue({ data }: any) {
   const {t} = useTranslation();
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    if(data){
+      setTimeout(()=>setIsLoading(false),200)
+    }
+  }, [data]);
+  if (isLoading) {
+    return <div style={{width:"100%",display:"flex",justifyContent:"center"}}><img src={LOADING} alt="Loading" /></div>;
+  }
   return (
     <div className="InQueueDiv">
-      {data &&
-        data.map((el: any, index: number) => (
+      {data && data.map((el: any, index: number) => (
+      <AnimatePresence>
           <motion.div
           initial={{opacity:0.5,scale:0.5}}
           animate={{opacity:1,scale:1}}
           transition={{ duration: 0.05*index/2+0.05 }}
+          exit={{translateX:"200px"}}
           key={index*23}
           >
             <h1>{el.taskName}</h1>
@@ -65,6 +76,7 @@ export default function InQueue({ data }: any) {
                 </div>
             </div>
           </motion.div>
+      </AnimatePresence>
         ))}
     </div>
   );

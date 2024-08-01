@@ -29,21 +29,22 @@ export default function People() {
 
   const renderComponent = () => {
     if (whichToShow === "active") {
-      return <Active activeData={data} reloadActive={reloadActive}/>;
+      return <Active activeData={data.active} reloadActive={reloadActive}/>;
     } else if (whichToShow === "archived") {
-      return <Archived archivedData={data} reloadActive={reloadActive}/>;
+      return <Archived archivedData={data.archived} reloadActive={reloadActive}/>;
     }
   };
+
   useEffect(() => {
     axios
-      .get("https://my-final-project-45l9.onrender.com/api/contact", {
+      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86", {
         headers: {
           'Access-Control-Allow-Origin': 'http://localhost:5173'
         }
       })
       .then(function (response) {
-        console.log(response.data)
-        setData(response.data);
+        console.log(response.data.Contacts)
+        setData(response.data.Contacts);
         if(response.status===200){
           setIsLoading(false);
         }

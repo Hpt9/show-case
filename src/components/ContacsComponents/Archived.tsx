@@ -125,12 +125,12 @@ export default function Archived({ archivedData,reloadActive }: any) {
                 </div>
                 <div className='p_n'>
                 <div className='user_p_n'>
-                  <p>{item.firstName}</p>
+                  <p>{item.name}</p>
                   <p>0506567494</p>
                 </div>
               </div>
               <div>Example</div>
-              <div>{item.peopleGroup}</div>
+              <div>{item.group}</div>
               <div>12-12-2022</div>
               <div>Ferid</div>
                 <div>

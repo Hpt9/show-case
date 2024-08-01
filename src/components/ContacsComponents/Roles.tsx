@@ -47,9 +47,9 @@ export default function Roles() {
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:8000/Roles")
+      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
       .then((response) => {
-        setData(response.data);
+        setData(response.data.Roles);
         if(response.status===200){
           setIsLoading(false);
         }
