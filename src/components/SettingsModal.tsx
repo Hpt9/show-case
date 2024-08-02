@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from "react-i18next";
 import { setting_menu } from '../exportedArrays';
+import ClearIcon from '@mui/icons-material/Clear';
 const SettingsModal = ({ onClose }:any) => {
   const {t} = useTranslation();
   return (
@@ -51,7 +52,7 @@ const SettingsModal = ({ onClose }:any) => {
       >
         <div className='set_modal_head'>
             <h2>{t("settings.h1")}</h2>
-            <button onClick={onClose}>X</button>
+            <button onClick={onClose}><ClearIcon/></button>
         </div>
         <div className='div_line'></div>
         <div className='settings_content'>

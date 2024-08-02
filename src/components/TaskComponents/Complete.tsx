@@ -29,7 +29,7 @@ export default function Complete({ data }: any) {
   useEffect(() => {
     if(data){
       if(data){
-        setTimeout(()=>setIsLoading(false),200)
+        setTimeout(()=>setIsLoading(false),500)
       }
     }
   }, [data]);

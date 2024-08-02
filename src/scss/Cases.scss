@@ -368,6 +368,33 @@
             }
         }
     }
+    .DUE{
+        padding: 4px 12px;
+        border-radius: 50px;
+        border: 1px solid #F15E54;
+        background: rgba(241, 94, 84, 0.12);
+        color: #F15E54 !important;
+        font-size: 12px;
+        line-height: 160%; /* 19.2px */
+    }
+    .SUCCESS{
+        border: 1px solid #5AD81F;
+        color: #5AD81F !important;
+        background: rgba(90, 216, 31, 0.12);
+        padding: 4px 12px;
+        border-radius: 50px;
+        font-size: 12px;
+        line-height: 160%; /* 19.2px */
+    }
+    .PAINDING{
+        color: #FF8515 !important;
+        border: 1px solid #FF8515;
+        background: rgba(255, 133, 21, 0.12);
+        padding: 4px 12px;
+        border-radius: 50px;
+        font-size: 12px;
+        line-height: 160%; /* 19.2px */
+    }
 }
 #root > div > div.menu_main > div.cases_div > div.br_chrt > div:nth-child(2) > div > div > svg > g.recharts-cartesian-grid > g.recharts-cartesian-grid-horizontal{
     display: none;

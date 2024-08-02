@@ -10,7 +10,7 @@ import Textarea from '@mui/joy/Textarea';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Button from '@mui/material/Button';
-import axios from "axios";
+//import axios from "axios";
 
 
 const valiSchema = Yup.object().shape({
@@ -35,17 +35,17 @@ const SendMailModal = ({ closeModal }: any) => {
         formik.setFieldValue('toWho', event.target.value);
     };
 
-    useEffect(()=>{
-        axios.get("http://localhost:8000/zones")
-         .then(function () {
+    // useEffect(()=>{
+    //     axios.get("http://localhost:8000/zones")
+    //      .then(function () {
             
-         })
-         .catch(function (error) {
-             console.error('Error fetching data:', error);
-         });
+    //      })
+    //      .catch(function (error) {
+    //          console.error('Error fetching data:', error);
+    //      });
         
         
-    },[]);
+    // },[]);
     
     const [open, setOpen] = useState(true);
 

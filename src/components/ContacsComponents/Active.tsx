@@ -109,7 +109,7 @@ const Active = ({ activeData,reloadActive }:any) => {
           {activeData.map((item: any, index: number) => (
             <div className='pc_user' key={index+"abhjui"}>
               <div>
-                <img src={"#"} />
+                <img src={""} />
               </div>
               <div className='p_n'>
                 <div className='user_p_n'>

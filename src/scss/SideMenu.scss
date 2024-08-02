@@ -37,8 +37,11 @@
                 }
             }
         }
-    }
-
+        
+}
+#root > div > div.menu_main > div.settModal > div > div.set_modal_head > button > svg{
+    width: 14px !important;
+}
 .a{
     color: var(--Navbar-Upper-case, #5A5D61);
             font-size: 12px;

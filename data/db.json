@@ -160,7 +160,8 @@
         "group": "Client",
         "lastlogin": "Disable",
         "added": "08-12-2023",
-        "assignedTo": "Jorge"
+        "assignedTo": "Jorge",
+        "img":"https://miro.medium.com/v2/resize:fit:1024/1*BEY7PZ3z0p6hxKLjYRdyvw.png"
       },
       {
         "name": "Complete6",
@@ -169,7 +170,8 @@
         "group": "Client",
         "lastlogin": "Disable",
         "added": "08-12-2023",
-        "assignedTo": "Ronald"
+        "assignedTo": "Ronald",
+        "img":"https://media.istockphoto.com/id/492199108/photo/surpised-young-man.jpg?s=1024x1024&w=is&k=20&c=yyFg7EQZIYm5l9-kmviUjQv-zgx4PDfkMFJigXapS54="
       }
     ],
     "archived": [
@@ -196,7 +198,7 @@
   "Roles": [
     {
       "id":"1",
-      "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+      "img": "https://s3-alpha-sig.figma.com/img/a4d9/3438/af18e1230f6095cc9b3deb3660779b76?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lHI6KoSMqCdNg7ZEeLeNwLN2zfQvh0zY0XP-jOBoJMYd9QqRcsoTDkchNSlFxtuLqYslQMRSwlrFs9~gYZGDngbLWuf-INdrOTtDkm135voTRop88Rpy1pafbn3UcwExG2nMUben0wnseuhcMjzl0UpZqrA9q4E9qqcEC4W1mIVGUnuFUbIsgYpc-Kxs1GwF1q-yO0cLsKsHOuTglhXZabBCfm~6ubeTaPZ9aif9vc5CATKGjG8IPG2FK-1VGimTe54cFLTllbJX9zPwvJRkOgiHX2cd9CvtMXdmpWx9bsQmfUqrQB0bSU2X6HLl3-Hjj7kNMhksAzp1x2Zgi-OZ1w__",
       "role": "Accountant",
       "phone": "(201) 555-0124",
       "status": "Inactive",
@@ -204,7 +206,7 @@
     },
     {
       "id":"2",
-      "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+      "img": "https://s3-alpha-sig.figma.com/img/3622/cfee/5ab1fb3f8707d4b43d1bbc10c1af9597?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HDDXc~F65asFwa91t28T2hkh-tfpt1R03uoarrXdSBjP~QRGel8RP7wfuj~0l0-zKNM3~hYcmwS7VQCZN24WLy6Bc-6DsKrC5Zejb6~t5R07BtENrNV4xZaCXPzvcre3mMg~2IQ1oD85ku7F3QSjcgz4DDqHaIWTWwXZklAxsFCRcTZ2x1EwfWA5QPalMT5R2D8jxin-6C~0K3vHs7dWmLCrFZUvMhGeDM4TwajaVjRrAH7xZyvi5DzRTdcOww7qD-6faAvKyULZGDabMgUF41dqWp5pL8nqoL5Mg9CwNoTILkgTK9CPR6S8jYeiDRWoyYiRmQmLvvduAi1LuYpq7Q__",
       "role": "Adverse party",
       "phone": "(201) 555-0124",
       "status": "Bouncing",
@@ -212,7 +214,7 @@
     },
     {
       "id":"3",
-      "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+      "img": "https://s3-alpha-sig.figma.com/img/d436/def2/e5963161441f2873f3887dca671d2617?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LAdaPm8Tsnsw4CMaZO3EGhwJWT1zoxPEB3lrTLryopgHF6H9tRjGjNpVieD7~EoG7pf~e20FQuc2pB79axNkAq47P4cTVffpGl0gxCpKlfSMTGB0pb08NF~7gjAz5TmdDgbPCbGFSqLHGy26srj1Ujcz5v-GdPS5OkgynRtyYedmIccE-eiEHIlSqpq3WQS1b6wBPuXvGGBMxVeATNsqxF5j5SPwF2CLupWY8nl~t~ikD1Ly-ZRWdw0NEXPJqcfL~S8LFcaXrpR1jGTpI44gnTsRn81nIggLVpe1MkhUp8xOqYejHzGrqX8oxjTPWpFB3SzVF9PxiGg-ykca3XvanQ__",
       "role": "Accountant",
       "phone": "(201) 555-0124",
       "status": "Recent",
@@ -220,7 +222,7 @@
     },
     {
       "id":"4",
-      "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+      "img": "https://s3-alpha-sig.figma.com/img/56a5/3a5a/8d5bf9606149bd9f0895a93e6edb3560?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QVD~uSR3S-WMCm8~2MBLVK6xkMFpWMARsD-SUYtM9gJ8BCUSUl9sGPlPt1g6oPfNdGcyUJJeKNaxp92vq6PKGXDNtZumlpymh8NuhqlSp3bkYoeVRkh-5b~N2EFXf07kxi7D~jKh8S3qOSWR3f4pLaqfb2AUOUw~s7a~oX5rzK30OTg1sUyUrEQmlFEo2otHzUJh0dg56m~FWq1wcfASvTaKRM5TOBRkeDIsBB7ebvEoHT5IJbZIQXgNi1MShp8UE0BkrMTA7wV0TDxawFHT6zrs-RGxrPpcRezApqPnOjiVVT07NUeTETjcAEg86im13etpMLXM9N3w0HeGZFUlsw__",
       "role": "Accountant",
       "phone": "(201) 555-0124",
       "status": "Active",
@@ -234,14 +236,16 @@
         "phone": "(201) 555-0124",
         "cases": "Example",
         "added": "08-12-2023",
-        "assignedTo": "Wade"
+        "assignedTo": "Wade",
+        "img":"https://s3-alpha-sig.figma.com/img/291f/1738/90dba96c587a4786e3d9e384397f8f02?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iWJkPP~EnCH~~A9JlYyN~JloeBh8Ickj2-A4i5K4HlxJgKiy90tt9WmXmhOHBGbn5QXzxQ7dOy8FvCYsGe2ElRJJrMYe0hL0VfHVmupGP6QASntGlbstoWmgAt3oMClpLDYEriK37UKsUIeYk7hgLlXz2h2csWhlXq4lFt5Ef2Y8mn0g3f~QJpOw5waE9YK4dn4C10d8Ex25rUhdT-jZqAcqsToOsEef5L3O6KgSGzQOIzlWBG~tDtNWEZIwjuszNDWWo~G5wvC5a43CQM~Kn0VPkuPugWkvsqLi-X7QErxk2ZDdFNed771CdEWwgoqaiFWjp6gBeGzkcjghSKAJ7Q__"
       },
       {
         "name": "Abstergo Ltd.2",
         "phone": "(201) 555-01242",
         "cases": "Example2",
         "added": "08-12-20232",
-        "assignedTo": "Wade2"
+        "assignedTo": "Wade2",
+        "img":"https://s3-alpha-sig.figma.com/img/e786/e8f0/d1eb5a0691a4c8b6d1cc73a9b51989a3?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wb-1P9tlybuU5KZqHWLABsKNhu9IvzNPeZUAAj1F33v32w4-AOOF2w8hp7qIqbRmfAiZEJ4rUAJlEuwXxx-xdqqsxYZ3FiIz-GabL0wmsFcAxIADRgdiu~3IaHsbK8jTTeEt2U5~5EOKsLzOJIZNof09sThxixmljQTw1dUqSBNbFzGRBD4F3Xn8~AoxB0q-vtog9zPqPgZBjF3dp-DKcgSoM0HsBmFH7XoJ2-Krnnj5kl1zVV25GH3wxPtmWZKe8wlIM8XaQee5YatolV6PUfjlNPagtf2tcDnD9tg9NU-XX2117ZNJk~RxxO5LkDDZqKKK1mmDNCVP8ahW5crtlQ__"
       }
     ],
     "archived": [
@@ -250,14 +254,16 @@
         "phone": "(201) 555-0124 arch ",
         "cases": "Example arch",
         "added": "08-12-2023 arch",
-        "assignedTo": "Wade arch"
+        "assignedTo": "Wade arch",
+        "img":"https://s3-alpha-sig.figma.com/img/291f/1738/90dba96c587a4786e3d9e384397f8f02?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iWJkPP~EnCH~~A9JlYyN~JloeBh8Ickj2-A4i5K4HlxJgKiy90tt9WmXmhOHBGbn5QXzxQ7dOy8FvCYsGe2ElRJJrMYe0hL0VfHVmupGP6QASntGlbstoWmgAt3oMClpLDYEriK37UKsUIeYk7hgLlXz2h2csWhlXq4lFt5Ef2Y8mn0g3f~QJpOw5waE9YK4dn4C10d8Ex25rUhdT-jZqAcqsToOsEef5L3O6KgSGzQOIzlWBG~tDtNWEZIwjuszNDWWo~G5wvC5a43CQM~Kn0VPkuPugWkvsqLi-X7QErxk2ZDdFNed771CdEWwgoqaiFWjp6gBeGzkcjghSKAJ7Q__"
       },
       {
         "name": "Abstergo Ltd.2 arch",
         "phone": "(201) 555-01242 arch",
         "cases": "Example2 arch",
         "added": "08-12-20232 arch",
-        "assignedTo": "Wade2 arch"
+        "assignedTo": "Wade2 arch",
+        "img":"https://s3-alpha-sig.figma.com/img/e786/e8f0/d1eb5a0691a4c8b6d1cc73a9b51989a3?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wb-1P9tlybuU5KZqHWLABsKNhu9IvzNPeZUAAj1F33v32w4-AOOF2w8hp7qIqbRmfAiZEJ4rUAJlEuwXxx-xdqqsxYZ3FiIz-GabL0wmsFcAxIADRgdiu~3IaHsbK8jTTeEt2U5~5EOKsLzOJIZNof09sThxixmljQTw1dUqSBNbFzGRBD4F3Xn8~AoxB0q-vtog9zPqPgZBjF3dp-DKcgSoM0HsBmFH7XoJ2-Krnnj5kl1zVV25GH3wxPtmWZKe8wlIM8XaQee5YatolV6PUfjlNPagtf2tcDnD9tg9NU-XX2117ZNJk~RxxO5LkDDZqKKK1mmDNCVP8ahW5crtlQ__"
       }
     ]
   },
@@ -265,7 +271,7 @@
     "open": [
       {
         "id":"1",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/1765/61c6/3f030a09fbb84ac8a983d77280617f7f?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d~ulVI88YcRRIXhlUNJ-knk2TN2bqLMeLvwIR63e2H6f2b11HgTl~fCq-yQRpZKrPF3mbVM9nyx41cC9ji00mCj8D-mH~3nwB9fMqtc4d32Fzbtxui0psPJaNPkb~IeBji8mqC3QT-STPyaXrnrA59XPlUB4Vp1vbI4MToOe1020sPYdnwinMJOb1duxxcJkYWVHdTt5t0dKTIwN5vBM5CnKkVIQSUiP~OhRlyBySW1w1X0QFfsRQqpkz3zOW3v7yTRPdGXwBnOBmWKcr6gSxErUXSXikyX0HfrZBX6jjXa4M~v2M9DXcn3QqSvXR26VS81WrVJt1V7dkyCudFqadg__",
         "name": "Jacob Jones",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -279,7 +285,7 @@
       },
       {
         "id":"2",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/0fe3/bd96/a40af6e9ea26bfd990f3f65d7dc40fbd?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SWR4lBwQNBKcGHnSqH7KeAn66G~N0~ewJEDIG6T61obfDZ6GzCzKW4wNEZUk2YoX~whQRrrjMpSQgjyHPnMr8CVdcoO3Ii5pCApGBkvsrl5A6JCKhXayca20te4opDrcbCKJV2z5aRZ~tpmGzHKVhk~xdiTbfhUR~LR3bvUuPA-5~WKfsLUIPyUP04Po2vmREcHWMemj7jHy8rpcRv9nbkB6BjGGIodvuRYulhcQx8k3ZaeNxycW4Mn3zSP9KKT3ZrNB2u9Ig-h~1X56FG-5gcHIKgwWvug9ir4LxAgPTXIFIvCduQJVDGDWfUZgsACCwDWs9oA2V9eoGYuOOf9F4g__",
         "name": "Jacob Jones",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -293,7 +299,7 @@
       },
       {
         "id":"3",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nJdJxW1mGxgMUZXg-doP18AFPDl-MFs~jXH3reJxXShKFjMJ0ERZse0XehyE7sGAypmr-FIhgHoraq4MzovIqgd-okHVq85z42FqabksQKWRS18Ddwfr6~BCriWbC-LNpiy~diG9IOTYIS3rEdA3wGd7PNrLnZ9EXpc4q4Bjgb4EGIYNlQ8f0OZWPKDUffzFV8Ig5mBh3BBYGq-4Pem~GUpBPJ6K1Awwtwfd6LDRwDiBLfCr27Mrz7obisnb3~vUVgVmoSUtviZWrs1CMQOxOVPaBoT9x0BsIfIgsYCxQqrDwXDW2T7drw892xcxEIbzt1ePQ8wOKSpIBcZ22bRqzw__",
         "name": "Jacob Jones",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -309,7 +315,7 @@
     "closed": [
       {
         "id":"1",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/3e7e/1346/9f9936fa68f41c17b224a071bea60ef2?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m9SuX5YxKOdgns~ljius5NFQkKAhJ9LRInsYrdC2RMHA3M09Ovs5V~d6k6sUw5xPVHTT5i1Xd-9AH-hDGqUBMPiBem2pIDjvHHtsT1TOiQBGwIo-kFF-8rpQHZe5QC1QcQ6FcDke04WNFRgBpikrn7DcRCTGv8i~Q3aHnjtqW7IMyeRYjn7fK5bQvrArdpiDYm0~QP~gWl8o485hT7HBL4pocT8CxRQUHK71KMN3WBxx2bgLAqERBtKdKQ0NTwxh6bOHjGxLgfTLpFGBIQ6yqqqim7UBuIJjB2HbbV3P455hDSEqdyakp88-e-EVqxPDay-3coZmpxuk6VZRF8h~TQ__",
         "name": "CJacob Jones",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -323,7 +329,7 @@
       },
       {
         "id":"2",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/4766/5a6e/8ec2532a78a112982f7385c7ea6f0e47?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dN8cl9VhqcGZnaL-fhk8O-mgY512Rib3G0Io6rAdVB1zUEUWg8Z3OSIzvghQRKDzj8GDNXJzAtxbL1OHuGB8unoKsvm2JsA-PTGoN39H5MWqnjMBZI1F46KvqHAVbXIN67X29bbbCelTdQVEKn1V39MurPytOMQ7~iNWLIwFL~jkb-eC-PLyi2YcvJdzpuXc-wB9NoKeswTz6lGCE~p~p6Iy1cCW8j4rq0T42-BPfJ5Kj9gJn9-cxhSoWYMJrowVF3V3qmYw2QyB6yv2kWLy4KUyN~Yn2-4ufIhL3yxQatATPwNxVkmkWLhOHiItzIA41X5nsQ5NAtunXp2ArJGhcA__",
         "name": "Jacob JonesC",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -337,7 +343,7 @@
       },
       {
         "id":"3",
-        "img": "https://s3-alpha-sig.figma.com/img/c460/226f/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CmmOIYlivHnG-fVRt71Y8Pvu7XBXbXpEJbMXQ1smWAMwgiKDzUtjiWIiCVtLhO6Zoq8~ido3ll0jBQypQR13OUFlKPix5ywFZXVQudicvIcvfGOHtKOcSu7U6o8dQZWzvryFyx~GsNCpPQXmf35v65-nsvTbZ8OMbDxBD5tbZUwCRHPT3S32Jt7zwsdyWCZpFxeSX5VsvQO7ugAHZnF~8aKiE3lAzkKsF-MN634WROhTZ0FVHixY9s1NNHzmrohw3YzAZj8CXFRQ9hLn-1REdPREad~6ZCLtZZOkqZHNk-uSFUO3h1EfgXwRB2EfGFOKDZaGWNm0xlcjgjIqm95uHw__",
+        "img": "https://s3-alpha-sig.figma.com/img/55cd/9651/13e8951ab4403356aadc31f2fcb2ff80?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a1kwlXwqv5APsd7grQklcdNtCanr~MydI5UPawCBcIuagO2RQD5E7pdEu-liEDdxhErn2PsIXUYNygNw~q117LHhX4irlSjB93LcxEcPHnRcuwEvEB8awnMDd45Ckso3HKwTLu7jmK-A9Vb4BYKWbzk2U3aDp3qZcVNialYPXGLCC6gIdszAce~Aka7P-JTJCmNEo0BdxbaiFaPRSW5E~yX0gsDB6XF7D56fNk0E4fvpJdXbQu1I2NTkzHxGPRwtY1tcGiJ0yXwrDVdm6iJCeDG8hHLxYjm44~2jgp0LJg3JO3TOKN7PFtRi4325tLYlZv67ixltByZK2yBkQO4HDw__",
         "name": "CJacob Jones",
         "phone": "(201) 555-0124",
         "caseStage": "Discovery",
@@ -353,21 +359,21 @@
   },
   "Practice_Areas": [
     {
-      "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+      "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SeOPUoKps1f2idT7p4qAXWIOjtfTsX3iy2zq7n3OaW-6chABQwbdjNM~e5dZr9FFgAZZb7HEOeyqeyE7AweydYz8bAUN4znff7JiIur5VehfTcsU-W5TR8CrZUuNtx-Jt2opNWbI6gv00QeqMMcZiZXwtfR1irjgfAJZ5YXmYaUvtEoGWuYahi4EszP5tCAQFLGy9aanpVeAFe-~KrbWicWZQFGeC8vms-8dNVpex~RK7up8E5n93jXhyFulLsi3a2G2JOFCX7Xmsbsk~VQqce15ptlEK0RL652OL6bm8XaYjbbpULfD1ZRDKGk7Z8tHYISf88jImXinqr6S1xOxMQ__",
       "categor": "Bankruplcy",
       "city": "Kansas City",
       "activeCase": "Yes",
       "createdBy": "System Default"
     },
     {
-      "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+      "img": "https://s3-alpha-sig.figma.com/img/a149/5f2d/5e04c587f59059b1c35649e23c4406a7?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z2Mf5tN5aC4yQw5i44Ea5DUKW1FvW53hbKfTVL3j~H4z9vn~1NrlNATVhIDVVr1vAVyfHzYPG-rI66XeHIpK2ig0W5kOc3aAajO-AymRAw~5DVEaAYuTL6XvrpTWg-gv~8~UGx0SsjsCrzTiIrsgb8TOQRrSPKxxNRwtkXBDRfrhhYL1XX4yCfEcbT2~piajB78MJi7bll7E1eGcjtsXiQyk5DJDAeGQHDix2~da0uLV9XZQL~Zk5KvuX3l7fOMHN3uct1WUgn9Cc15GUbNEqBq63WrpYDWUcKl4O91QcgxQ1P21rDS~PPN0h8keOXSrs9ibMyIRNzN6IKCVjOmyhw__",
       "categor": "Bankruplcy",
       "city": "Kansas City2",
       "activeCase": "Yes",
       "createdBy": "System Default"
     },
     {
-      "img": "https://s3-alpha-sig.figma.com/img/481c/5fbf/aa63b4f751dca73fd8dd268efdb69c8b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FlpWgSMdd6aBn95Vi0cT1nx0TTa0NJqokw2WlxZni2-7gs-dPvUmUIQvyBlqo0uICKcW4jYJ7Kpm~oboe1V1B6xW6iBIfRctXLwdS82bzmYB~OQSVaggsNeue5Bz-3tSTr7ykJAZ9jtnIlrcULiYTFvkhphrCp8rSwr3TgWbFipjJHF1zN~dvQ-hMD4ROvdhNyius5EGoEEKocIl82i2iacLxOikxkuy0Zyl1gzcBSws2hqaYdmuMH5zQKdgO~j1y5qlX9m1~D69WRQlrUAXTmFrDKSWkP2GR0O85WkGlDCCsjHY~HocgKzG6ifYzkzPRZ-F7eJnzW-~J7peW9G4WQ__",
+      "img": "https://s3-alpha-sig.figma.com/img/c4c3/44f5/6832f2a555cddde88015bbc7076adb65?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LAscQ2p8B-GCSZg8rg4R~NX5C4tl6DKmb4ACVklhrmPFm8rUB1C7Fegw4A9FmePQGY8wUNIHLO4j4qkCkpTsWRxtu3Bop5DZJqu0YA5CELvABpG9JMsa2f63xqV91NLjYokg3Kh97NqFtoWFVLNRA4L25p1chr7fQdj3uIzLjKQB1SJR9LQRTzXuMUwyuQ3Qm-nJsXrExJjSsGMFMXcsGFCvPUZ5CUZUg5rIZAmefKghKU6Gp7H-Kh44K5R17l2W3u6XadPfGWtySYyxSTI3mlZ9GzjRmLULBVrymwE--ymFhxfZbSmfBMUgl0Ht7E3JJMo-Ah3kYl68GolGa2ehqQ__",
       "categor": "Bankruplcy",
       "city": "Kansas City3",
       "activeCase": "Yes",

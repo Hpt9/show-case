@@ -12,9 +12,9 @@ export default function LeadsOver() {
           determinate
           value={75}
           sx={{
-            "--CircularProgress-size": "230px",
-            "--CircularProgress-progressThickness": "32px",
-            "--CircularProgress-trackThickness": "32px",
+            "--CircularProgress-size": "200px",
+            "--CircularProgress-progressThickness": "30px",
+            "--CircularProgress-trackThickness": "30px",
           }}
         >
           {`75%`}

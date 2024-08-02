@@ -37,11 +37,7 @@ export default function People() {
 
   useEffect(() => {
     axios
-      .get("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86", {
-        headers: {
-          'Access-Control-Allow-Origin': 'http://localhost:5173'
-        }
-      })
+      .get("https://run.mocky.io/v3/33984b62-a8d2-45b5-8ba1-e478448b2f99")
       .then(function (response) {
         console.log(response.data.Contacts)
         setData(response.data.Contacts);

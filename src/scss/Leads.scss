@@ -77,7 +77,7 @@
 
     .lead_mn {
         width: calc(100% - 24px);
-        height: calc(100vh - 210px);
+        //height: calc(100vh - 210px);
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto;
@@ -87,7 +87,7 @@
             border-radius: 24px;
             background: #FFF;
             padding: 20px;
-            height: 329px;
+            height: 318px;
             overflow-y: auto;
         }
 
@@ -1373,6 +1373,9 @@ line-height: 140%; /* 28px */
     .conv_left{
         flex-wrap: wrap !important;
     }
+    .lead_mn{
+        height: calc(100vh - 210px);
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1388,6 +1391,24 @@ line-height: 140%; /* 28px */
         .added_lead_mini{
             border: 1px solid #E5E8EF;
         }
+    }
+    .leads .mobChartConv_div > div{
+        width: 100%;
+    }
+    #root > div > div.menu_main > div > div:nth-child(2) > div > div.chart_mobile_lead{
+        margin-top: 101px;
+    }
+    #root > div > div.menu_main > div > div:nth-child(2) > div{
+        display: flex;
+        flex-direction: column;
+        // row-gap: 101px;
+    }
+    #root > div > div.menu_main > div > div:nth-child(2) > div > div.conv{
+        height: auto;
+    }
+    #root > div > div.menu_main > div > div:nth-child(2) > div > div.conv > div.conv_right.mobChartConv > div{
+        flex-direction: column;
+        row-gap: 24px;
     }
     .lInsight_div{
         padding: 20px;

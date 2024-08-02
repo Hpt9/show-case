@@ -28,7 +28,7 @@ export default function InQueue({ data }: any) {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     if(data){
-      setTimeout(()=>setIsLoading(false),200)
+      setTimeout(()=>setIsLoading(false),500)
     }
   }, [data]);
   if (isLoading) {
