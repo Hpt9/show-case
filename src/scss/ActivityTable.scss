@@ -22,6 +22,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr .5fr;
+        
     }
     .headers{
         color: var(--Table-Heading, #5A5D61);
@@ -147,6 +148,9 @@
 @media screen and (max-width:800px) {
     .headers{
         display: none !important;
+    }
+    .table>div>div{
+        border: 1px solid #EFF2F4;
     }
 }
 .mobile-user-row{
