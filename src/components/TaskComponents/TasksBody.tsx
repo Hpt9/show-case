@@ -13,7 +13,7 @@ export default function TasksBody() {
   const handleTabClick = (tab:any,ind:number) => {
     //console.log(tab)
     setActiveTab(tab);
-    fetch("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
+    fetch("https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5")
     .then((res) => res.json())
     .then((data) => {
         //console.log(data[tab])
@@ -22,7 +22,7 @@ export default function TasksBody() {
     setActiveIndex(ind)
   };
   useEffect(() => {
-    fetch("https://run.mocky.io/v3/43b81524-384d-4ae1-8e95-5a7955142f86")
+    fetch("https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5")
     .then((res) => res.json())
     .then((data) => {
         console.log(data[activeTab])

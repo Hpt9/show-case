@@ -9,6 +9,9 @@
     row-gap: 24px;
     overflow-y: scroll;
 }
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.event-div{
+    height: 250px;
+}
 
 @media screen and (max-width:1024px) {
     .home-main-div{

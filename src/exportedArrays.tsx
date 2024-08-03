@@ -217,7 +217,7 @@ export const user=[
     company:"Shelbylimited1",
     date:"11.11.1111",
     status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mEHXzHgBxwYshJF-PBNsEn28TH0sNgr~rlCAEIREX0Ll376eJk2Iv4W0w9gSXFk69AMkp6Rgz19UNudrjl63~8DrYIk0gHwD3evVpb5Qo8q0fWJfnW-sSr7hmvY44sX80pizhmBlhWIiy-NdUwD7FMTlAwywqlgQzqg5kV1LhL9kVXjWzpWpuZvI0Nj56wZGsR4Wh7PqWt00ycAoZl6mJHhdNYVd1S02APCvzM7v8Zzvnt-0QYQxmQDcfNGCWY55JbkU0NkAAWACesG44fRmVcADexxFAtNiT59w7X21ek7fYFnvZ1XYWA4WOTrlpTlY~3HWjSlzfCxJoDx81aXgVw__"
   },
   {
     name:"ferid2",
@@ -225,7 +225,7 @@ export const user=[
     company:"Shelbylimited2",
     date:"11.11.1112",
     status:["MEDIUM","ORTA"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/b52e/1df2/041e981fea2ab7e77f156b65e259af97?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n177CSKpCzTqQPJmi6iHSCNdz9H4UXajNICMSijemDTrK5qu-6Y1scttPtOtg6d26tPp1q5txpkgKceJ8aSQg8vgygDCjJhYyThro35c~NgvL~4zGXyF9RXIoVe0cDpNVClX9yvW-WftdOphIxVVTB7kaJ2SOvFlQzyVUs9~DYK6S13LPX6wjw-WwQMaZ9DKrJkr7jiXu6Du0QeSE2kEI5qgtMp2a7M3kHdGCt-Brc~SNns79BdgnIq967DmWU7nbFZhyLT0fCcOh-z8SifFPgbR4xF9q0xa~PieovFriIk4ZoR5XYQVk5~i2URRWkydgx8L2ui8pl-caeShCH5pmw__"
   },
   {
     name:"ferid3",
@@ -233,7 +233,7 @@ export const user=[
     company:"Shelbylimited3",
     date:"11.11.1113",
     status:["HIGH","YÜKSƏK"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/0555/5dff/3f0d5e8899976001c256237794d56b46?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pneMmOxx5yhVbsi3h5YjcQDfPJDb8pOvxu2s5lTNSRlMJUvXXfpfXQwwY~~iuQPuqERo3IbtrhLqE2b~A4zGLR4PjKhk3ZRHrEK9zfEw89qt3Flf8VOXfMeq11y2Fn2Rkd~qA62LbbFlhszoM0GXUoaNigAJtCD4jcc-VP~KsN6Bz91nqmPIb7ZRc6UNsSx1M6JPNsbaHQQlrinX4OyLzQmJXXS4RVUbZ9QWiD0TwDt8PsQVrKdBWl5wb9-viWRU6n1zmtBnrI-lN-XggdNMA23ddhFVUI8Acv8xTQhu8~sJNsSU1NTNQnE1tGM0Xx3UFg~O5162SKJmuSAIYK6-UQ__"
 
   },{
     name:"ferid4",
@@ -241,7 +241,7 @@ export const user=[
     company:"Shelbylimited4",
     date:"11.11.1114",
     status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/c7b8/ccf6/f83ec8f4d40b01b93dbd1798ba8fbeaf?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bnF74re2YGgvk0CWa-oH~U-gDLIxpAbuwHKUWYsVnDJlhba6BHGwvqF2wNUATt3WBIKra8By~qypipDK0ERzXLgyqDBsaV2jdRJ7ZprqqhztBDWC5nmkeicF9VON38yLQl03GOzAry6NkTvMQcFvpTv3ondnIi1qlW1bLTTb7JHTJA7OLNhiEzlW20Y40pe5rFN5sTrimkY9uXZT5V97YS-fofvhGvC7CeyvgieNqR4kuyVltGJ-UHlVmd4XUq38gzgFcox3ve3uw8Md4PwK2Z2OacH4B-o9iMgagFc~0ZGpk-OotdiFJ5m2vJgiZwD1YxwV751JxQ1y8IS~7m2NMQ__"
 
   },{
     name:"ferid5",
@@ -249,7 +249,7 @@ export const user=[
     company:"Shelbylimited5",
     date:"11.11.1115",
     status:["HIGH","YÜKSƏK"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/3007/97a9/6cc4e945941fb3a3f2d52c3119b1060a?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hDQDpoL9b3G8EFeOvEXrbzZQd1QAp3-t4j3q0cgJ6z9XvczNkcHxMjhHsf3nUAeh1F5tC1OfAEqt5n0folfMgRlQ8CfXgkXpAZbGIEBkIfzafuq3FoEBPh~8qHTgwDJQdUdKwXwh11p6Hu5MN8rzTzJfLHN3-eGRnZdkL5S6mkNyKecle80k0pTSw4otFO13jm5-sgh64SDtXw0BgI-3tPWtsS2-tr~Ih0XOrl4oCRGtxXpYgECBEuh9PtXbBPI4ChGb9xV42QQBW88YjcmwAwyvHOAos1GCSEOZ3lDFBi~7kTwwevTbxd1NoBOwF6d~yji~a-N1~X-1x6nZoRskbg__"
 
   },{
     name:"ferid5",
@@ -257,7 +257,7 @@ export const user=[
     company:"Shelbylimited5",
     date:"11.11.1115",
     status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/f9df/d9d3/35e104ce835a47781beee9d9eb907764?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cUuqjPD0G09yiJ9hLH6nKhw5L3XjLSU5OGxutmKu9ir4GKfB8d2VIYGVxJFvSwVe8cjrvU1BqZT5zyHbd2gwShUtrdxiv7yVfQAmMsBVYY7TMzWvTPNg~jAHZ~s45c6bQFTrlvK6P-30MAAHOfrdrnbC1EQQNzwUABLNJEm1KqViaPfOXGpqNReH~jgaT2IXBBcWOO3U~FUiBB-VjxrKoq1MMGXF6MyMrr7EH2DYPcLvZJv-sp3AkPhesnXohLgcArRuL8NLOthz2-i6T~7K14OGNTzKC55B3h9QDSk86qtIPpr2KjsPaUlmriR3gYEP3KTPnxjD-13GVP2vItZ1kA__"
 
   },{
     name:"ferid5",
@@ -265,7 +265,7 @@ export const user=[
     company:"Shelbylimited5",
     date:"11.11.1115",
     status:["MEDIUM","ORTA"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/2a3d/ab87/c95dad81537b72f675af1841246ee36b?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=coCTmn9hi9UHpV767rQc7E86LxuJPv1R~KTK4StmhkdgBYBHYWgEOjUK4jPrjYOxzxRl-ooF9fLaOBiv6Pk4Iw~iway9bj0sEE1japiJcDGA3pCXYZ9w9Z7c-B3dt-AhIOh4FhKKDDGiQXsfbHvyQ9kl3AVjef4~RZdpQS3zpJp-HDct~oWeQkQZc99q69g6sc1QSE6LBBfJ1nqDuHFNRlfrIsYB5Iyw8Itu0Q~RtT58Y9etV7cgEbzDGfl1ckWfCRqK3Q6oXYrCUA9BRoPJmY9DgonrhfvXPZIrRHs7vmK5xTAkr~wkv2ndLp1UZjT9gOWhRC693pQMAal7lszWiQ__"
 
   },{
     name:"ferid5",
@@ -273,49 +273,8 @@ export const user=[
     company:"Shelbylimited5",
     date:"11.11.1115",
     status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-  },{
-    name:"ferid5",
-    phone:"0506564794",
-    company:"Shelbylimited5",
-    date:"11.11.1115",
-    status:["MEDIUM","ORTA"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-  },{
-    name:"ferid5",
-    phone:"0506564794",
-    company:"Shelbylimited5",
-    date:"11.11.1115",
-    status:["HIGH","YÜKSƏK"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-  },{
-    name:"ferid5",
-    phone:"0506564794",
-    company:"Shelbylimited5",
-    date:"11.11.1115",
-    status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-  },{
-    name:"ferid5",
-    phone:"0506564794",
-    company:"Shelbylimited5",
-    date:"11.11.1115",
-    status:["MEDIUM","ORTA"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-  },{
-    name:"ferid5",
-    phone:"0506564794",
-    company:"Shelbylimited5",
-    date:"11.11.1115",
-    status:["LOW","AŞAĞI"],
-    pp:"https://s3-alpha-sig.figma.com/img/f53e/1d24/fbad79be67f30faaa84b663526fc7319?Expires=1704672000&Signature=LkBSggat4WXOrKCuAO1AfNWtNzwqaXZidBKGEO~rjmiKT~t6FrdG2QyRIN5ymbXYzRg8PXGgTth-h9vT5lkJgIcUZayS4DqEkYPr972DMOx99SfR0hLKhlbkpQSdEQTFhF6SnEsNLG-Q-l1JdvmSyKUqkd52zwYC5ePWkdVuSkPGY25~S~NCmWUxYo5hPunNqjg88XYlpRBYhT0OhZ4DzcUp7buaZojmtv4lfSNnk-c6bD~nT~yMo87BqS9vM99NWdzcCsVfDQezYf-GokzL2Z7EaiuwFHgUppRMVozB2HrOk4RiPQkKibo2LVHnsKfyG2ZcMTX54P7z~kuormoPlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    pp:"https://s3-alpha-sig.figma.com/img/9341/8497/8bd9ac622173255a5a22e0b55f8dd22a?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L1Bwz-zlsPmLUqw9huXEw-jgy3yIKeD55GhPjnml80cWzUNkrSidfEmyzl7KVLeT~ECrYalrO4dJUPxaeCfx1yxLXWAT5jh-InP~XQgsArpN88ewdXWNCl5CuK2oYCWVFxiGMXApek4YBYD0W02v~DRnn0DaF4Vj-5igXJR2oWbrVSSVBbKpy2rmJP3zoQWbtJ-6mM1G5I1m8z6RzjhuTG1ksMGAXfENmhI~iH2WluS1NO6UkLQC7ARiTyE42fXE4G-pkVQr~1alkJr-PRFKl0fdixbx1yT~FdHcKgwmBzq6uaktmXyifn3fPpumIcs~jmG39zPbIGJFimM0M4PceA__"
   }
-
 ]
 
 export const doctors = [

@@ -25,7 +25,9 @@
 #root>div>div.menu_main>div.calendar_viewer_div>div>div>div>div.mbsc-calendar-wrapper.mbsc-flex-col.mbsc-ios.mbsc-calendar-wrapper-fixed.mbsc-flex-none>div.mbsc-calendar-header.mbsc-ios>div {
     background-color: white;
 }
-
+#root > div > div.menu_main > div.home-main-div > div.chart-cal-div > div.calendar-div > div.MuiDateCalendar-root.css-1q04gal-MuiDateCalendar-root{
+    margin-bottom: 0 !important;
+}
 #root>div>div.menu_main>div.calendar_viewer_div>div>div>div {
     border-radius: 10px;
 }

@@ -21,7 +21,8 @@ export default function ActivityTable() {
   // const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
   //   setPage(value);
   // };
-
+  
+  
   const divs1: JSX.Element[] = user.map((u, i) => {
     return (
       <motion.div
