@@ -19,7 +19,7 @@ export default function Commmunications() {
 
   useEffect(() => {
     axios
-      .get("https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5")
+      .get("https://hpt9.github.io/show-case-db/db.json")
       .then((response) => {
         setData(response.data.Leads.communications);
         setDataTSent(response.data.Leads.communications.filter((item:any) => item.type.toLowerCase() === "call"));

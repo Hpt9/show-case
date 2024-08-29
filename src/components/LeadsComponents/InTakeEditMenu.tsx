@@ -20,7 +20,7 @@ const InTakeEditMenu = ({ closeModal,id,reloadActive }: any) => {
     const {t} = useTranslation();
     useEffect(() => {
         axios
-          .get(`https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5`)
+          .get(`https://hpt9.github.io/show-case-db/db.json`)
           .then(function (response) {
             console.log(response.data.Leads,data)
             setData(response.data.Leads);

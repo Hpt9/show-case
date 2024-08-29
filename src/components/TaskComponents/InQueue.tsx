@@ -43,7 +43,7 @@ export default function InQueue({ data }: any) {
           animate={{opacity:1,scale:1}}
           transition={{ duration: 0.05*index/2+0.05 }}
           exit={{translateX:"200px"}}
-          key={index*23}
+          key={index*23+"a"}
           >
             <h1>{el.taskName}</h1>
             <p>{el.taskDesc}</p>

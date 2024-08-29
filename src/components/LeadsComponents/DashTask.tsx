@@ -27,7 +27,7 @@ export default function DashTask() {
         setIsModalOpen(false);
       }
     useEffect(()=>{
-        axios.get('https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5')
+        axios.get('https://hpt9.github.io/show-case-db/db.json')
         .then(response => {
             setData(response.data.Leads.task)
         })

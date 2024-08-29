@@ -34,7 +34,7 @@ export default function Company() {
   };
   useEffect(() => {
     axios
-      .get("https://run.mocky.io/v3/b152780e-9598-4ff6-b7d0-68d60ac976c5")
+      .get("https://hpt9.github.io/show-case-db/db.json")
       .then(function (response) {
         setData(response.data.Compny);
         if(response.status===200){
